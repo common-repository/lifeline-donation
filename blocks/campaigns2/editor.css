@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-webinane-donation-campaigns2 {
+	border: 1px dotted #f00;
+}
+
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .wpcm-col-md-4 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .progress {
+	overflow: visible;
+}

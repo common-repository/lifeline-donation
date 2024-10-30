@@ -1,0 +1,153 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-webinane-donation-campaigns {
+	margin: 40px 0;
+}
+.wp-block-webinane-donation-campaigns .wpcm-cause-listng {
+    margin-bottom: 60px;
+}
+
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .wpcm-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .wpcm-col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.wp-block-webinane-donation-campaigns .wpcm-cause-lstng-img {
+    position: relative;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lstng-img figure {
+    margin-bottom: 0;
+}
+
+
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .wpcm-btn {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
+.wp-block-webinane-donation-campaigns .wpcm-cause-lstng-img > a.wpcm-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    width: 62%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+    -moz-transition: all 0.45s;
+}
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .wpcm-btn.wpcm-btn-icon {
+    border-radius: 4px;
+    padding: 17px 35px 17px 85px;
+    overflow: hidden;
+    box-shadow: -1px 10px 18px 0px rgba(0, 0, 0, 0.18);
+}
+.wp-block-webinane-donation-campaigns .wpcm-btn-icon.wpcm-btn-green2 {
+    background: #00c375;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-listng:hover a.wpcm-btn {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-btn-icon span {
+    background-color: #00ab67;
+    font-size: 13px;
+    height: 59px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 55px;
+    top: 0;
+    text-align: center;
+    line-height: 56px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt > a.wpcm-cause-cat {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #279ccd;
+    padding: 8px 14px;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt h2 {
+    font-size: 24px;
+    color: #3b3b3b;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt p {
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt > span {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 22px;
+    color: #0d9b8c;
+}
+
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt .progress {
+    background-color: #f6f6f6;
+    height: 22px;
+    border-radius: 30px;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt .progress-bar {
+    position: relative;
+    border-radius: 30px;
+    background-color: #0d9b8c;
+}
+
+.wp-block-webinane-donation-campaigns .wpcm-cause-lsting-contnt .progress-bar span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    right: 15px;
+}

@@ -1,0 +1,45 @@
+{
+    "translation-revision-date": "2019-10-27 09:56:16+0000",
+    "generator": "WP-CLI\/2.3.0",
+    "source": "assets\/js\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "en",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Please enter or choose amount": [
+                ""
+            ],
+            "Please select payment method": [
+                ""
+            ],
+            "Please enter the amount to donate": [
+                ""
+            ],
+            "Choose the currency to donate": [
+                ""
+            ],
+            "Error": [
+                ""
+            ],
+            "Please enter first name": [
+                ""
+            ],
+            "Please enter last name": [
+                ""
+            ],
+            "Please enter valid email address": [
+                ""
+            ],
+            "Please enter your phone number": [
+                ""
+            ],
+            "Please enter your address": [
+                ""
+            ]
+        }
+    }
+}

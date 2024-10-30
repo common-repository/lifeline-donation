@@ -1,0 +1,88 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-webinane-donation-campaigns3 {
+	border: 1px dotted #f00;
+}
+
+.wp-block-webinane-donation-campaigns3 .wpcm-row {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.wp-block-webinane-donation-campaigns3.wpcm-wrapper .wpcm-col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3 {
+    overflow: hidden;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-img {
+    position: relative;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-img figure {
+    margin-bottom: 0;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-img img {
+    max-width: 100%;
+    height: auto;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-contnt {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 40px;
+    width: 100%;
+}
+
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-contnt span {
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-contnt span.wpcm-cause-loc {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-contnt h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3-contnt a.wpcm-btn {
+    margin-top: 25px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    margin-bottom: -80px;
+    background-color: #0d9b8c;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.wp-block-webinane-donation-campaigns3 .wpcm-cause-style3:hover a.wpcm-btn {
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: 0;
+}
+

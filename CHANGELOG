@@ -1,0 +1,17 @@
+### v1.2.1
+- Fixed - [webinane_donation_page] shortcodes issues
+- Fixed - Donation Popup styling issues.
+
+### v1.2.0
+- Fixed - donation popup button issue for Elementor widgets/
+- Fixed - donation popup button issue for VC Shortcodes and Gutenburg blocks
+
+### v1.1.0
+- Fixed – Currency selector issue is fixed.
+- Fixed – Gateways visibility issues on donation popup are fixed.
+- Fixed – Header menu donation button issue is fixed.
+- Fixed – Make manual donation from Admin area by seeing the list of causes and projects.
+- Fixed – Donation popup responsive style issues.
+
+#### v1.0.8
+- Fixed - Currency dropdown issues

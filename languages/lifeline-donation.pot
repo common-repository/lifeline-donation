@@ -1,0 +1,5100 @@
+# Copyright (C) 2021 Webinane
+# This file is distributed under the same license as the Lifeline Donation package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lifeline Donation 1.2.5.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/lifeline-donation\n"
+"POT-Creation-Date: 2021-07-31 20:20:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Lifeline Donation"
+msgstr ""
+
+#: blocks/campaigns.php:98 blocks/campaigns2.php:108 blocks/campaigns3.php:106
+#: shortcodes/output/wi_donation_campaigns1.php:69
+#: shortcodes/output/wi_donation_campaigns2.php:107
+#: shortcodes/output/wi_donation_campaigns3.php:70
+#: shortcodes/output/wi_donation_campaigns4.php:65
+#: templates/donation-modal/payment-methods.php:83
+#: templates/donation-templates/donation-page-2.php:47
+#: templates/donation-templates/donation-page-2.php:124
+#: templates/donation-templates/donation-page-3.php:55
+#: templates/donation-templates/donation-page-3.php:118
+#: templates/modal/modal2.php:105 templates/modal/modal3.php:69
+#: templates/modal/modal3.php:117
+#: templates/post-templates/archive_template.php:59
+#: templates/post-templates/main-content.php:40
+#: templates/post-templates/main-content.php:51
+#: templates/post-templates/main-content.php:58 widgets/urgent_cause.php:39
+#: widgets/urgent_cause.php:144 widgets/urgent_project.php:77
+msgid "Donate Now"
+msgstr ""
+
+#: blocks/campaigns.php:106 elementor/causes.php:236 elementor/causes2.php:236
+#: elementor/output/causes.php:54 elementor/single_causes_widget.php:254
+msgid "Raised"
+msgstr ""
+
+#: blocks/campaigns2.php:104 elementor/output/causes2.php:32
+#: elementor/output/single_causes_widget.php:32
+msgid "GOAL"
+msgstr ""
+
+#: blocks/campaigns2.php:105 elementor/output/causes2.php:33
+#: elementor/output/causes3.php:28 elementor/output/causes4.php:39
+#: elementor/output/causes5.php:26
+#: elementor/output/causes_listing_widget.php:24
+#: elementor/output/single_causes_widget.php:33
+msgid "Raise"
+msgstr ""
+
+#: blocks/campaigns3.php:105 blocks/campaigns4.php:116
+#: blocks/campaigns5.php:103 shortcodes/output/wi_donation_campaigns1.php:90
+#: shortcodes/output/wi_donation_campaigns3.php:64
+#: shortcodes/output/wi_donation_campaigns4.php:78
+#: shortcodes/output/wi_donation_campaigns5.php:67
+#: widgets/urgent_campaigns.php:75
+msgid "Raised:"
+msgstr ""
+
+#: blocks/campaigns4.php:100
+msgid "donate now"
+msgstr ""
+
+#: config/archive_setting.php:8
+msgid "Archives"
+msgstr ""
+
+#: config/archive_setting.php:16
+msgid "Project / Cause Layout"
+msgstr ""
+
+#: config/archive_setting.php:19
+msgid "Left Sidebar"
+msgstr ""
+
+#: config/archive_setting.php:20 config/projects.php:61
+msgid "Full"
+msgstr ""
+
+#: config/archive_setting.php:21
+msgid "Right Sidebar"
+msgstr ""
+
+#: config/archive_setting.php:24 config/projects.php:24
+msgid "Choose the archive pages layout for projects and causes."
+msgstr ""
+
+#: config/archive_setting.php:28 config/causes.php:66 config/projects.php:68
+msgid "Select sidebar"
+msgstr ""
+
+#: config/archive_setting.php:31 config/causes.php:71
+msgid "Select sidebar to show on cause detail page"
+msgstr ""
+
+#: config/causes.php:14
+msgid "Cause Settings"
+msgstr ""
+
+#: config/causes.php:18 config/projects.php:20
+msgid "Donation Needed"
+msgstr ""
+
+#: config/causes.php:22
+msgid "Enter the donation needed amount."
+msgstr ""
+
+#: config/causes.php:25
+msgid "Cause Location"
+msgstr ""
+
+#: config/causes.php:27
+msgid "Enter location of the cause."
+msgstr ""
+
+#: config/causes.php:30 config/projects.php:31
+msgid "Show Title Section"
+msgstr ""
+
+#: config/causes.php:32 config/projects.php:33
+msgid "Whether to show title section or not"
+msgstr ""
+
+#: config/causes.php:35 config/projects.php:36
+msgid "Header Banner Custom Title"
+msgstr ""
+
+#: config/causes.php:39 config/projects.php:40
+msgid "Enter the custom title for header banner section"
+msgstr ""
+
+#: config/causes.php:42 config/projects.php:43
+msgid "Show Breadcrumb section"
+msgstr ""
+
+#: config/causes.php:44 config/projects.php:45
+msgid "Show or hide Breadcrumb section"
+msgstr ""
+
+#: config/causes.php:47 config/projects.php:48
+msgid "Title section background"
+msgstr ""
+
+#: config/causes.php:50 config/general_popup.php:87
+#: config/posttype_popup.php:52 config/projects.php:51
+msgid "Add Background"
+msgstr ""
+
+#: config/causes.php:51 config/general_popup.php:88
+#: config/posttype_popup.php:53 config/projects.php:52
+msgid "Change Background"
+msgstr ""
+
+#: config/causes.php:52 config/projects.php:53
+msgid "Upload background image for page title section"
+msgstr ""
+
+#: config/causes.php:55
+msgid "Cause Layout"
+msgstr ""
+
+#: config/causes.php:59 config/projects.php:60 elementor/button.php:203
+msgid "Left"
+msgstr ""
+
+#: config/causes.php:60
+msgid "full"
+msgstr ""
+
+#: config/causes.php:61 config/projects.php:62 elementor/button.php:211
+msgid "Right"
+msgstr ""
+
+#: config/causes.php:63
+msgid "Choose the cause layout"
+msgstr ""
+
+#: config/causes.php:74
+msgid "Cause Format"
+msgstr ""
+
+#: config/causes.php:78 elementor/parallax-simple.php:86
+#: shortcodes/parallax-simple.php:88
+msgid "Slider"
+msgstr ""
+
+#: config/causes.php:79 elementor/parallax-simple.php:86
+#: elementor/parallax-simple.php:92 elementor/parallax.php:53
+#: elementor/parallax.php:122 shortcodes/parallax-simple.php:88
+#: shortcodes/parallax-simple.php:94
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-items.php:16
+msgid "Image"
+msgstr ""
+
+#: config/causes.php:80 elementor/parallax-simple.php:86
+#: shortcodes/parallax-simple.php:88
+msgid "Video"
+msgstr ""
+
+#: config/causes.php:81 elementor/parallax-simple.php:86
+#: shortcodes/parallax-simple.php:88
+msgid "Gallery"
+msgstr ""
+
+#: config/causes.php:84
+msgid "Select the format"
+msgstr ""
+
+#: config/causes.php:87
+msgid "Video Code"
+msgstr ""
+
+#: config/causes.php:90
+msgid "Enter cause link like \"https://www.youtube.com/watch?v=IvWjhp62zhM\""
+msgstr ""
+
+#: config/donation_button.php:5 elementor/button.php:45
+#: elementor/causes.php:159 elementor/causes2.php:159 elementor/causes3.php:160
+#: elementor/causes4.php:160 elementor/causes_listing_widget.php:177
+#: elementor/single_causes_widget.php:177 shortcodes/button2.php:22
+#: shortcodes/button2.php:72
+msgid "Donation Button"
+msgstr ""
+
+#: config/donation_button.php:12
+msgid "General Donation Settings"
+msgstr ""
+
+#: config/donation_button.php:15 config/general_popup.php:22
+msgid "Select General Donation Type"
+msgstr ""
+
+#: config/donation_button.php:20 config/general_popup.php:25
+#: config/posttype_popup.php:20
+msgid "Popup Box"
+msgstr ""
+
+#: config/donation_button.php:21 config/general_popup.php:26
+#: config/posttype_popup.php:21
+msgid "Page Template"
+msgstr ""
+
+#: config/donation_button.php:22 config/donation_button.php:40
+#: config/general_popup.php:27 config/general_popup.php:42
+#: config/posttype_popup.php:22
+msgid "External Link"
+msgstr ""
+
+#: config/donation_button.php:29 config/general_popup.php:33
+#: config/posttype_popup.php:29
+msgid "Donation Page"
+msgstr ""
+
+#: config/donation_button.php:30 config/general_popup.php:36
+msgid ""
+"Page where you have placed donation shortcode. So when user visits the "
+"page, it shows the donation form instead of popup"
+msgstr ""
+
+#: config/donation_button.php:41
+msgid ""
+"Enter the external Link to redirect the user to. Must be starts with "
+"https:// or http://"
+msgstr ""
+
+#: config/donation_settings.php:8
+#: vendor/webinane/webinane-commerce/config/settings.php:14
+#: vendor/webinane/webinane-commerce/config/settings.php:89
+msgid "General"
+msgstr ""
+
+#: config/donation_settings.php:9
+msgid "Donation General Settings"
+msgstr ""
+
+#: config/donation_settings.php:13
+msgid "Enable Plugin Style"
+msgstr ""
+
+#: config/donation_settings.php:15
+msgid "Enable to apply plugin styles"
+msgstr ""
+
+#: config/donation_settings.php:17 config/donation_settings.php:27
+#: config/donation_settings.php:37 config/donation_settings.php:48
+#: config/donation_settings.php:69 config/donation_settings.php:80
+#: config/donation_settings.php:90 config/donation_settings.php:100
+#: config/donation_settings.php:111 config/general_popup.php:123
+#: config/menu_button.php:20
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:173
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:963
+msgid "YES"
+msgstr ""
+
+#: config/donation_settings.php:18 config/donation_settings.php:28
+#: config/donation_settings.php:38 config/donation_settings.php:49
+#: config/donation_settings.php:70 config/donation_settings.php:81
+#: config/donation_settings.php:91 config/donation_settings.php:101
+#: config/donation_settings.php:112 config/general_popup.php:124
+#: config/menu_button.php:21
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:173
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:963
+msgid "NO"
+msgstr ""
+
+#: config/donation_settings.php:23
+msgid "Enable Causes"
+msgstr ""
+
+#: config/donation_settings.php:25
+msgid "Enable to collect donation on causes (custom post type)"
+msgstr ""
+
+#: config/donation_settings.php:33
+msgid "Enable Projects"
+msgstr ""
+
+#: config/donation_settings.php:35
+msgid "Enable to collect donation on projects (custom post type)"
+msgstr ""
+
+#: config/donation_settings.php:44
+msgid "Show Currency Selector"
+msgstr ""
+
+#: config/donation_settings.php:46
+msgid "Allow donors to select currency on donation form"
+msgstr ""
+
+#: config/donation_settings.php:54
+msgid "Choose Currencies to show in Donation Popup"
+msgstr ""
+
+#: config/donation_settings.php:57
+msgid "Choose currency to show as selective on donation popup"
+msgstr ""
+
+#: config/donation_settings.php:65
+msgid "Pre Defined Donation Amount"
+msgstr ""
+
+#: config/donation_settings.php:67
+msgid "Enable pre defined donations amounts"
+msgstr ""
+
+#: config/donation_settings.php:75
+msgid "Donation Amounts"
+msgstr ""
+
+#: config/donation_settings.php:77
+msgid "Enter the donation amounts"
+msgstr ""
+
+#: config/donation_settings.php:86
+msgid "Custom Donation Amount"
+msgstr ""
+
+#: config/donation_settings.php:88
+msgid "Enable custom donations amount"
+msgstr ""
+
+#: config/donation_settings.php:96 config/donation_settings.php:98
+msgid "Enable recurring payments"
+msgstr ""
+
+#: config/donation_settings.php:107
+msgid "Enable Custom Dropdown"
+msgstr ""
+
+#: config/donation_settings.php:109
+msgid "Enable to show custom dropdown in donation form."
+msgstr ""
+
+#: config/donation_settings.php:118
+msgid "Dropdown Options"
+msgstr ""
+
+#: config/donation_settings.php:120
+msgid "Enable custom donations dropdown options"
+msgstr ""
+
+#: config/general_popup.php:16
+msgid "General Popup"
+msgstr ""
+
+#: config/general_popup.php:30
+msgid ""
+"Donation type for general donation button like \"button in menu\" or button "
+"you place using shortcode"
+msgstr ""
+
+#: config/general_popup.php:44
+msgid ""
+"Enter a valid external link including http or https, only works if donation "
+"type is external link"
+msgstr ""
+
+#: config/general_popup.php:50
+msgid "Select Donation Popup Style"
+msgstr ""
+
+#: config/general_popup.php:53 shortcodes/donation_template.php:42
+msgid "Style 1"
+msgstr ""
+
+#: config/general_popup.php:54 shortcodes/donation_template.php:43
+msgid "Style 2"
+msgstr ""
+
+#: config/general_popup.php:55 shortcodes/donation_template.php:44
+msgid "Style 3"
+msgstr ""
+
+#: config/general_popup.php:57
+msgid ""
+"View in action <a href=\"%s\" target=\"_blank\">Style 1</a>, <a href=\"%s\" "
+"target=\"_blank\">Style 2</a>, <a href=\"%s\" target=\"_blank\">Style 3</a>"
+msgstr ""
+
+#: config/general_popup.php:64
+msgid "Post or Page for General Donation"
+msgstr ""
+
+#: config/general_popup.php:67
+msgid ""
+"It is reuqired. Select the project, cause or page you want to store the "
+"collected donation in. General donations are being stored in specified page "
+"or custom post type"
+msgstr ""
+
+#: config/general_popup.php:74
+msgid "General Needed Amount"
+msgstr ""
+
+#: config/general_popup.php:76
+msgid "Enter the amount for donation box"
+msgstr ""
+
+#: config/general_popup.php:84 config/posttype_popup.php:49
+#: shortcodes/parallax4.php:28 shortcodes/parallax5.php:28
+msgid "Background Image"
+msgstr ""
+
+#: config/general_popup.php:86
+msgid "Choose the background image to show in general donation form"
+msgstr ""
+
+#: config/general_popup.php:94
+msgid "Donation Popup Title"
+msgstr ""
+
+#: config/general_popup.php:96
+msgid "Enter the title to show on General donation form"
+msgstr ""
+
+#: config/general_popup.php:101
+msgid "Donation Popup Sub Title"
+msgstr ""
+
+#: config/general_popup.php:103
+msgid "Enter the sub title to show on General donation form"
+msgstr ""
+
+#: config/general_popup.php:108
+msgid "Donation Popup Description"
+msgstr ""
+
+#: config/general_popup.php:110
+msgid "Enter the description to show on General donation form"
+msgstr ""
+
+#: config/general_popup.php:117
+msgid "Show Donation progress bar in Popup"
+msgstr ""
+
+#: config/general_popup.php:119
+msgid "Whether to show donation calculation bar in popup"
+msgstr ""
+
+#: config/menu_button.php:10
+msgid "Menu Button"
+msgstr ""
+
+#: config/menu_button.php:17
+msgid "Show Donation button in Menu"
+msgstr ""
+
+#: config/menu_button.php:24
+msgid "Whether to show donation button in menus"
+msgstr ""
+
+#: config/menu_button.php:28
+msgid "Menu Location"
+msgstr ""
+
+#: config/menu_button.php:32
+msgid "Choose menu location where you want to show this button."
+msgstr ""
+
+#: config/menu_button.php:37
+msgid "Donation Button Title"
+msgstr ""
+
+#: config/menu_button.php:40
+msgid "Enter the title for donation button"
+msgstr ""
+
+#: config/menu_button.php:45
+msgid "Button background color"
+msgstr ""
+
+#: config/menu_button.php:48 config/menu_button.php:56
+#: config/menu_button.php:64 config/menu_button.php:72
+msgid "Choose the color for donation button"
+msgstr ""
+
+#: config/menu_button.php:53
+msgid "Background mouseover color"
+msgstr ""
+
+#: config/menu_button.php:61
+msgid "Text mouseover color"
+msgstr ""
+
+#: config/menu_button.php:69
+msgid "Button Text color"
+msgstr ""
+
+#: config/my_account.php:4
+msgid "Show Donation Publicly"
+msgstr ""
+
+#: config/my_account.php:8
+msgid "Others"
+msgstr ""
+
+#: config/posttype_popup.php:11
+msgid "Post Type Popup"
+msgstr ""
+
+#: config/posttype_popup.php:17
+msgid "Select Donation Type"
+msgstr ""
+
+#: config/posttype_popup.php:25
+msgid ""
+"Donation type for custom posts donation button like project, cuases or any "
+"custom post that supports donation"
+msgstr ""
+
+#: config/posttype_popup.php:32
+msgid ""
+"Page where you have placed donation shortcode. So when user visits the "
+"page, it shows the donation form instead of popup. Only works if you have "
+"select \"Page Template\" in \"Donation Type\""
+msgstr ""
+
+#: config/posttype_popup.php:39
+msgid "Donation Button URL"
+msgstr ""
+
+#: config/posttype_popup.php:42
+msgid "Enter the donation button URL for external link"
+msgstr ""
+
+#: config/posttype_popup.php:51
+msgid "Choose the background image to show in donation form"
+msgstr ""
+
+#: config/posttype_popup.php:60
+msgid "Donation Form Title"
+msgstr ""
+
+#: config/posttype_popup.php:62
+msgid "Enter the title for donation popup box"
+msgstr ""
+
+#: config/posttype_popup.php:69
+msgid "Donation Form Sub Title"
+msgstr ""
+
+#: config/posttype_popup.php:71
+msgid "Enter the sub title for donation popup box"
+msgstr ""
+
+#: config/posttype_popup.php:78
+msgid "Donation Form Description"
+msgstr ""
+
+#: config/posttype_popup.php:82
+msgid "Enter the description to show on donation form"
+msgstr ""
+
+#: config/projects.php:14
+msgid "Project Additional Fields"
+msgstr ""
+
+#: config/projects.php:27
+msgid "Project Location"
+msgstr ""
+
+#: config/projects.php:29
+msgid "Enter location of the project."
+msgstr ""
+
+#: config/projects.php:56
+msgid "Project Layout"
+msgstr ""
+
+#: config/projects.php:64
+msgid "Choose the project layout"
+msgstr ""
+
+#: config/projects.php:74
+msgid "Select sidebar to show on project detail page"
+msgstr ""
+
+#: config/settings.php:5 includes/Classes/DashboardMisc.php:36
+#: includes/class-lifeline-donation.php:49 includes/load.php:116
+#: includes/load.php:127 templates/emails/customer-new-donation.php:10
+#: templates/emails/owner-new-donation.php:10
+msgid "Donations"
+msgstr ""
+
+#: elementor/button.php:91
+msgid "Extra Small"
+msgstr ""
+
+#: elementor/button.php:92
+msgid "Small"
+msgstr ""
+
+#: elementor/button.php:93
+msgid "Medium"
+msgstr ""
+
+#: elementor/button.php:94
+msgid "Large"
+msgstr ""
+
+#: elementor/button.php:95
+msgid "Extra Large"
+msgstr ""
+
+#: elementor/button.php:111 elementor/button.php:312 elementor/causes.php:271
+#: elementor/causes2.php:271 elementor/causes3.php:204
+#: elementor/causes4.php:204 elementor/causes_listing_widget.php:221
+#: elementor/single_causes_widget.php:289 shortcodes/campaigns1.php:74
+#: shortcodes/campaigns1.php:83 shortcodes/campaigns1.php:95
+#: shortcodes/campaigns1.php:110 shortcodes/campaigns2.php:74
+#: shortcodes/campaigns2.php:83 shortcodes/campaigns2.php:95
+#: shortcodes/campaigns2.php:110 shortcodes/campaigns3.php:74
+#: shortcodes/campaigns3.php:83 shortcodes/campaigns3.php:95
+#: shortcodes/campaigns3.php:110 shortcodes/campaigns4.php:79
+#: shortcodes/campaigns4.php:88 shortcodes/campaigns4.php:100
+#: shortcodes/campaigns4.php:115 shortcodes/campaigns5.php:74
+#: shortcodes/campaigns5.php:83 shortcodes/campaigns5.php:95
+#: shortcodes/campaigns5.php:110 shortcodes/donation_parallax2.php:80
+#: shortcodes/donation_parallax2.php:89 shortcodes/donation_parallax2.php:101
+#: shortcodes/donation_parallax2.php:117 shortcodes/donation_parallax2.php:130
+#: shortcodes/donation_parallax2.php:165 shortcodes/parallax2.php:43
+#: shortcodes/parallax2.php:52 shortcodes/parallax2.php:64
+#: shortcodes/parallax2.php:80 shortcodes/parallax2.php:92
+#: shortcodes/parallax3.php:52 shortcodes/parallax3.php:61
+#: shortcodes/parallax3.php:73 shortcodes/parallax3.php:89
+#: shortcodes/parallax3.php:101 shortcodes/parallax4.php:49
+#: shortcodes/parallax4.php:58 shortcodes/parallax4.php:70
+#: shortcodes/parallax4.php:86 shortcodes/parallax4.php:98
+#: shortcodes/parallax5.php:49 shortcodes/parallax5.php:58
+#: shortcodes/parallax5.php:70 shortcodes/parallax5.php:86
+#: shortcodes/parallax5.php:98
+msgid "Button"
+msgstr ""
+
+#: elementor/button.php:118 includes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: elementor/button.php:122 elementor/parallax.php:296
+#: shortcodes/button.php:275
+msgid "Default"
+msgstr ""
+
+#: elementor/button.php:123
+msgid "Info"
+msgstr ""
+
+#: elementor/button.php:124
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:14
+msgid "Success"
+msgstr ""
+
+#: elementor/button.php:125
+msgid "Warning"
+msgstr ""
+
+#: elementor/button.php:126
+msgid "Danger"
+msgstr ""
+
+#: elementor/button.php:135 elementor/parallax.php:82 shortcodes/button.php:122
+#: shortcodes/parallax.php:42 shortcodes/parallax3.php:45
+#: shortcodes/parallax4.php:42 shortcodes/parallax5.php:42
+msgid "Text"
+msgstr ""
+
+#: elementor/button.php:140 elementor/button.php:141
+msgid "Click here"
+msgstr ""
+
+#: elementor/button.php:148 shortcodes/button.php:148 shortcodes/button.php:270
+#: shortcodes/campaigns1.php:93 shortcodes/campaigns2.php:93
+#: shortcodes/campaigns3.php:93 shortcodes/campaigns4.php:98
+#: shortcodes/campaigns5.php:93 shortcodes/donation_parallax2.php:99
+#: shortcodes/parallax.php:68 shortcodes/parallax.php:141
+#: shortcodes/parallax2.php:62 shortcodes/parallax3.php:71
+#: shortcodes/parallax3.php:142 shortcodes/parallax4.php:68
+#: shortcodes/parallax5.php:68
+#: vendor/webinane/webinane-commerce/config/i18n.php:10
+msgid "Action"
+msgstr ""
+
+#: elementor/button.php:152 elementor/button.php:168 elementor/causes.php:178
+#: elementor/causes.php:186 elementor/causes2.php:178 elementor/causes2.php:186
+#: elementor/causes3.php:179 elementor/causes3.php:187
+#: elementor/causes4.php:179 elementor/causes4.php:187
+#: elementor/causes_listing_widget.php:196
+#: elementor/causes_listing_widget.php:204 elementor/parallax.php:90
+#: elementor/single_causes_widget.php:196
+#: elementor/single_causes_widget.php:204 shortcodes/button.php:168
+#: shortcodes/button.php:181 shortcodes/donation_parallax2.php:119
+#: shortcodes/donation_parallax2.php:132
+msgid "Link"
+msgstr ""
+
+#: elementor/button.php:156 elementor/causes.php:179 elementor/causes2.php:179
+#: elementor/causes3.php:180 elementor/causes4.php:180
+#: elementor/causes_listing_widget.php:197
+#: elementor/single_causes_widget.php:197
+msgid "Donation Popup"
+msgstr ""
+
+#: elementor/button.php:173 elementor/parallax.php:310
+#: elementor/parallax.php:342 elementor/parallax.php:360
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/button.php:186
+msgid "Post"
+msgstr ""
+
+#: elementor/button.php:199
+msgid "Alignment"
+msgstr ""
+
+#: elementor/button.php:207
+msgid "Center"
+msgstr ""
+
+#: elementor/button.php:215
+msgid "Justified"
+msgstr ""
+
+#: elementor/button.php:227
+msgid "Size"
+msgstr ""
+
+#: elementor/button.php:238 elementor/causes.php:203 elementor/causes2.php:203
+#: elementor/single_causes_widget.php:221
+msgid "Icon"
+msgstr ""
+
+#: elementor/button.php:248
+msgid "Icon Position"
+msgstr ""
+
+#: elementor/button.php:252
+msgid "Before"
+msgstr ""
+
+#: elementor/button.php:253
+msgid "After"
+msgstr ""
+
+#: elementor/button.php:264
+msgid "Icon Spacing"
+msgstr ""
+
+#: elementor/button.php:284
+msgid "View"
+msgstr ""
+
+#: elementor/button.php:293
+msgid "Button ID"
+msgstr ""
+
+#: elementor/button.php:299
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: elementor/button.php:301
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore "
+"chars without spaces."
+msgstr ""
+
+#: elementor/button.php:331 elementor/causes.php:290 elementor/causes2.php:290
+#: elementor/causes3.php:223 elementor/causes4.php:223
+#: elementor/causes_listing_widget.php:240 elementor/parallax.php:199
+#: elementor/parallax.php:332 elementor/single_causes_widget.php:308
+msgid "Normal"
+msgstr ""
+
+#: elementor/button.php:338 elementor/button.php:374 elementor/causes.php:297
+#: elementor/causes.php:333 elementor/causes2.php:297 elementor/causes2.php:333
+#: elementor/causes3.php:230 elementor/causes3.php:266
+#: elementor/causes4.php:230 elementor/causes4.php:266
+#: elementor/causes_listing_widget.php:247
+#: elementor/causes_listing_widget.php:283
+#: elementor/single_causes_widget.php:315
+#: elementor/single_causes_widget.php:351
+msgid "Text Color"
+msgstr ""
+
+#: elementor/button.php:350 elementor/button.php:385 elementor/causes.php:309
+#: elementor/causes.php:344 elementor/causes2.php:309 elementor/causes2.php:344
+#: elementor/causes3.php:242 elementor/causes3.php:277
+#: elementor/causes4.php:242 elementor/causes4.php:277
+#: elementor/causes_listing_widget.php:259
+#: elementor/causes_listing_widget.php:294
+#: elementor/single_causes_widget.php:327
+#: elementor/single_causes_widget.php:362 shortcodes/donation_parallax2.php:24
+msgid "Background Color"
+msgstr ""
+
+#: elementor/button.php:367 elementor/causes.php:326 elementor/causes2.php:326
+#: elementor/causes3.php:259 elementor/causes4.php:259
+#: elementor/causes_listing_widget.php:276 elementor/parallax.php:244
+#: elementor/parallax.php:351 elementor/single_causes_widget.php:344
+msgid "Hover"
+msgstr ""
+
+#: elementor/button.php:396 elementor/causes.php:355 elementor/causes2.php:355
+#: elementor/causes3.php:288 elementor/causes4.php:288
+#: elementor/causes_listing_widget.php:305
+#: elementor/single_causes_widget.php:373
+msgid "Border Color"
+msgstr ""
+
+#: elementor/button.php:410 elementor/causes.php:369 elementor/causes2.php:369
+#: elementor/causes3.php:302 elementor/causes4.php:302
+#: elementor/causes_listing_widget.php:319
+#: elementor/single_causes_widget.php:387
+msgid "Hover Animation"
+msgstr ""
+
+#: elementor/button.php:431
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/button.php:451
+msgid "Padding"
+msgstr ""
+
+#: elementor/causes.php:45
+msgid "Donation Causes"
+msgstr ""
+
+#: elementor/causes.php:91 elementor/causes2.php:91 elementor/causes3.php:92
+#: elementor/causes4.php:92 elementor/causes5.php:93
+#: elementor/causes_listing_widget.php:110
+#: elementor/single_causes_widget.php:110
+msgid "Query"
+msgstr ""
+
+#: elementor/causes.php:100 elementor/causes2.php:100 elementor/causes3.php:101
+#: elementor/causes4.php:101 elementor/causes5.php:101
+#: elementor/causes_listing_widget.php:118
+#: elementor/single_causes_widget.php:118
+#: includes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: elementor/causes.php:110 elementor/causes2.php:110 elementor/causes3.php:111
+#: elementor/causes4.php:111 elementor/causes5.php:111
+#: elementor/causes_listing_widget.php:128
+#: elementor/single_causes_widget.php:128 includes/Classes/DashboardMisc.php:63
+#: includes/Classes/DashboardMisc.php:93 shortcodes/campaigns1.php:35
+#: shortcodes/campaigns2.php:35 shortcodes/campaigns3.php:35
+#: shortcodes/campaigns4.php:40 shortcodes/campaigns5.php:35
+msgid "Number"
+msgstr ""
+
+#: elementor/causes.php:121 elementor/causes2.php:121 elementor/causes3.php:122
+#: elementor/causes4.php:122 elementor/causes5.php:122
+#: elementor/causes_listing_widget.php:139
+#: elementor/single_causes_widget.php:139
+msgid "Order By"
+msgstr ""
+
+#: elementor/causes.php:125 elementor/causes2.php:125 elementor/causes3.php:126
+#: elementor/causes4.php:126 elementor/causes5.php:126
+#: elementor/causes_listing_widget.php:143
+#: elementor/single_causes_widget.php:143
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1193
+msgid "Date"
+msgstr ""
+
+#: elementor/causes.php:126 elementor/causes2.php:126 elementor/causes3.php:127
+#: elementor/causes4.php:127 elementor/causes5.php:127
+#: elementor/causes_listing_widget.php:93
+#: elementor/causes_listing_widget.php:144 elementor/parallax-simple.php:25
+#: elementor/parallax.php:74 elementor/parallax.php:187
+#: elementor/single_causes_widget.php:93 elementor/single_causes_widget.php:144
+#: includes/Classes/DashboardMisc.php:58 includes/Classes/DashboardMisc.php:88
+#: shortcodes/button.php:115 shortcodes/donation_parallax2.php:66
+#: shortcodes/donation_template.php:51 shortcodes/parallax-simple.php:27
+#: shortcodes/parallax.php:35 shortcodes/parallax2.php:29
+#: shortcodes/parallax3.php:38 shortcodes/parallax4.php:35
+#: shortcodes/parallax5.php:35
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:80
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:103
+msgid "Title"
+msgstr ""
+
+#: elementor/causes.php:127 elementor/causes2.php:127 elementor/causes3.php:128
+#: elementor/causes4.php:128 elementor/causes5.php:128
+#: elementor/causes_listing_widget.php:145
+#: elementor/single_causes_widget.php:145
+msgid "Menu Order"
+msgstr ""
+
+#: elementor/causes.php:128 elementor/causes2.php:128 elementor/causes3.php:129
+#: elementor/causes4.php:129 elementor/causes5.php:129
+#: elementor/causes_listing_widget.php:146
+#: elementor/single_causes_widget.php:146
+msgid "Random"
+msgstr ""
+
+#: elementor/causes.php:135 elementor/causes2.php:135 elementor/causes3.php:136
+#: elementor/causes4.php:136 elementor/causes5.php:136
+#: elementor/causes_listing_widget.php:153
+#: elementor/single_causes_widget.php:153 shortcodes/campaigns1.php:66
+#: shortcodes/campaigns2.php:66 shortcodes/campaigns3.php:66
+#: shortcodes/campaigns4.php:71 shortcodes/campaigns5.php:66
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:316
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:543
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:553
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:194
+#: vendor/webinane/webinane-commerce/templates/emails/customer-new-order.php:12
+#: vendor/webinane/webinane-commerce/templates/emails/layouts/template.php:12
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:19
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:15
+#: vendor/webinane/webinane-commerce/templates/orders/success-page.php:2
+msgid "Order"
+msgstr ""
+
+#: elementor/causes.php:139 elementor/causes2.php:139 elementor/causes3.php:140
+#: elementor/causes4.php:140 elementor/causes5.php:140
+#: elementor/causes_listing_widget.php:157
+#: elementor/single_causes_widget.php:157
+msgid "DESC"
+msgstr ""
+
+#: elementor/causes.php:140 elementor/causes2.php:140 elementor/causes3.php:141
+#: elementor/causes4.php:141 elementor/causes5.php:141
+#: elementor/causes_listing_widget.php:158
+#: elementor/single_causes_widget.php:158
+msgid "ASC"
+msgstr ""
+
+#: elementor/causes.php:147 elementor/causes2.php:147 elementor/causes3.php:148
+#: elementor/causes4.php:148 elementor/causes5.php:148
+#: elementor/causes_listing_widget.php:165
+#: elementor/single_causes_widget.php:165
+msgid "Igonore Stikcy posts"
+msgstr ""
+
+#: elementor/causes.php:166 elementor/causes2.php:166 elementor/causes3.php:167
+#: elementor/causes4.php:167 elementor/causes_listing_widget.php:184
+#: elementor/single_causes_widget.php:184 widgets/urgent_cause.php:190
+msgid "Button Text"
+msgstr ""
+
+#: elementor/causes.php:168 elementor/causes2.php:168 elementor/causes3.php:169
+#: elementor/causes4.php:169 elementor/causes_listing_widget.php:186
+#: elementor/single_causes_widget.php:186
+msgid "Doation Now"
+msgstr ""
+
+#: elementor/causes.php:174 elementor/causes2.php:174 elementor/causes3.php:175
+#: elementor/causes4.php:175 elementor/causes_listing_widget.php:192
+#: elementor/single_causes_widget.php:192
+msgid "Button Type"
+msgstr ""
+
+#: elementor/causes.php:196 elementor/causes2.php:196
+#: elementor/single_causes_widget.php:214
+msgid "Show Icon"
+msgstr ""
+
+#: elementor/causes.php:220 elementor/causes2.php:220
+#: elementor/single_causes_widget.php:238
+msgid "Misc"
+msgstr ""
+
+#: elementor/causes.php:227 elementor/causes2.php:227
+#: elementor/single_causes_widget.php:245
+msgid "Show Raised Amount"
+msgstr ""
+
+#: elementor/causes.php:234 elementor/causes2.php:234
+#: elementor/single_causes_widget.php:252
+msgid "Raised Amount Label"
+msgstr ""
+
+#: elementor/causes.php:245 elementor/causes2.php:245
+#: elementor/single_causes_widget.php:263
+msgid "Show Progressbar"
+msgstr ""
+
+#: elementor/causes.php:253 elementor/causes2.php:253
+#: elementor/single_causes_widget.php:271
+msgid "Progressbar color"
+msgstr ""
+
+#: elementor/causes2.php:45
+msgid "Donation Causes 2"
+msgstr ""
+
+#: elementor/causes3.php:46
+msgid "Donation Causes 3"
+msgstr ""
+
+#: elementor/causes4.php:46
+msgid "Donation Causes 4"
+msgstr ""
+
+#: elementor/causes5.php:47
+msgid "Donation Causes 5"
+msgstr ""
+
+#: elementor/causes_listing_widget.php:47
+msgid "Causes Listing Widget"
+msgstr ""
+
+#: elementor/causes_listing_widget.php:99 elementor/single_causes_widget.php:99
+msgid "Widget Title"
+msgstr ""
+
+#: elementor/elementor.php:53
+msgid "Webinane Donations"
+msgstr ""
+
+#: elementor/heading.php:47
+msgid "Heading"
+msgstr ""
+
+#: elementor/heading.php:93 elementor/heading2.php:93
+msgid "Data"
+msgstr ""
+
+#: elementor/heading.php:101 elementor/heading2.php:101
+msgid "Heading Text"
+msgstr ""
+
+#: elementor/heading2.php:47
+msgid "Heading 2"
+msgstr ""
+
+#: elementor/heading2.php:109
+msgid "Sub Heading Text"
+msgstr ""
+
+#: elementor/parallax-simple.php:17 shortcodes/parallax-simple.php:18
+msgid "About Us"
+msgstr ""
+
+#: elementor/parallax-simple.php:27 shortcodes/donation_parallax2.php:68
+#: shortcodes/parallax-simple.php:29 shortcodes/parallax2.php:31
+msgid "Enter the title to show in about us section"
+msgstr ""
+
+#: elementor/parallax-simple.php:32 shortcodes/donation_parallax2.php:73
+#: shortcodes/parallax-simple.php:34 shortcodes/parallax2.php:36
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/parallax-simple.php:34 shortcodes/donation_parallax2.php:75
+#: shortcodes/parallax-simple.php:36 shortcodes/parallax2.php:38
+msgid "Enter the sub title to show in about us section"
+msgstr ""
+
+#: elementor/parallax-simple.php:39 shortcodes/parallax-simple.php:41
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:86
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:109
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:33
+msgid "Description"
+msgstr ""
+
+#: elementor/parallax-simple.php:41 shortcodes/parallax-simple.php:43
+msgid "Enter the description to show in about us section"
+msgstr ""
+
+#: elementor/parallax-simple.php:46 shortcodes/parallax-simple.php:48
+msgid "Show Causes"
+msgstr ""
+
+#: elementor/parallax-simple.php:49 shortcodes/parallax-simple.php:51
+msgid "Enable to show causes on this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:54 shortcodes/parallax-simple.php:56
+msgid "Show Button"
+msgstr ""
+
+#: elementor/parallax-simple.php:57 shortcodes/parallax-simple.php:59
+msgid "Enable to show read more button on this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:62 shortcodes/button.php:136
+#: shortcodes/button.php:257 shortcodes/campaigns1.php:81
+#: shortcodes/campaigns2.php:81 shortcodes/campaigns3.php:81
+#: shortcodes/campaigns4.php:86 shortcodes/campaigns5.php:81
+#: shortcodes/donation_parallax2.php:87 shortcodes/parallax-simple.php:64
+#: shortcodes/parallax.php:56 shortcodes/parallax.php:128
+#: shortcodes/parallax2.php:50 shortcodes/parallax3.php:59
+#: shortcodes/parallax4.php:56 shortcodes/parallax5.php:56
+msgid "Button Label"
+msgstr ""
+
+#: elementor/parallax-simple.php:64 shortcodes/parallax-simple.php:66
+msgid "Enter the button label to show in this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:73 shortcodes/parallax-simple.php:75
+msgid "Button URL"
+msgstr ""
+
+#: elementor/parallax-simple.php:75 shortcodes/parallax-simple.php:77
+msgid "Enter the button url to show in this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:84 shortcodes/parallax-simple.php:86
+msgid "Media Type"
+msgstr ""
+
+#: elementor/parallax-simple.php:87 shortcodes/parallax-simple.php:89
+msgid "Select media type to show for this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:94 shortcodes/parallax-simple.php:96
+msgid "Upload image to show in this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:103 shortcodes/parallax-simple.php:105
+msgid "Gallery/Slider Images"
+msgstr ""
+
+#: elementor/parallax-simple.php:105 shortcodes/parallax-simple.php:107
+msgid "Upload images to show images gallery/slider in this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:114 shortcodes/parallax-simple.php:116
+msgid "Vimeo Video URL"
+msgstr ""
+
+#: elementor/parallax-simple.php:116 shortcodes/parallax-simple.php:118
+msgid ""
+"Enter the video url like 'https://vimeo.com/248072144' to show video in "
+"this section"
+msgstr ""
+
+#: elementor/parallax-simple.php:125 shortcodes/parallax-simple.php:127
+msgid "Section Style"
+msgstr ""
+
+#: elementor/parallax-simple.php:127 shortcodes/parallax-simple.php:129
+msgid "Old Style"
+msgstr ""
+
+#: elementor/parallax-simple.php:127 shortcodes/parallax-simple.php:129
+msgid "New Style"
+msgstr ""
+
+#: elementor/parallax-simple.php:128 shortcodes/parallax-simple.php:130
+msgid "Select section style"
+msgstr ""
+
+#: elementor/parallax.php:17
+msgid "Parallax"
+msgstr ""
+
+#: elementor/parallax.php:43 shortcodes/donation_template.php:60
+msgid "Content"
+msgstr ""
+
+#: elementor/parallax.php:55
+msgid "Choose the image you want to display"
+msgstr ""
+
+#: elementor/parallax.php:61
+msgid "Image Dimension"
+msgstr ""
+
+#: elementor/parallax.php:63
+msgid ""
+"Crop the original image size to any custom size. Set custom width or height "
+"to keep the original size ratio."
+msgstr ""
+
+#: elementor/parallax.php:76 elementor/parallax.php:84
+#: elementor/parallax.php:92
+msgid "Leave it if you don't want to show"
+msgstr ""
+
+#: elementor/parallax.php:99
+msgid "List"
+msgstr ""
+
+#: elementor/parallax.php:109
+msgid "Enable Carousel"
+msgstr ""
+
+#: elementor/parallax.php:111
+msgid "Choose whether to enable owl carousel"
+msgstr ""
+
+#: elementor/parallax.php:135
+msgid "Carousel Settings"
+msgstr ""
+
+#: elementor/parallax.php:145
+msgid "Show Arrows"
+msgstr ""
+
+#: elementor/parallax.php:147
+msgid "Show arrows on carousel"
+msgstr ""
+
+#: elementor/parallax.php:154
+msgid "Show Dots"
+msgstr ""
+
+#: elementor/parallax.php:156
+msgid "Show dots on carousel"
+msgstr ""
+
+#: elementor/parallax.php:163
+msgid "Autoplay"
+msgstr ""
+
+#: elementor/parallax.php:165
+msgid "Auto play carousel"
+msgstr ""
+
+#: elementor/parallax.php:172
+msgid "Speed (miliseconds)"
+msgstr ""
+
+#: elementor/parallax.php:174
+msgid "Enter the carousel speed in mili seconds"
+msgstr ""
+
+#: elementor/parallax.php:213 elementor/parallax.php:250
+msgid "Color"
+msgstr ""
+
+#: elementor/parallax.php:227 elementor/parallax.php:264
+msgid "Visibility"
+msgstr ""
+
+#: elementor/parallax.php:230 elementor/parallax.php:267
+msgid "Visible"
+msgstr ""
+
+#: elementor/parallax.php:231 elementor/parallax.php:268
+msgid "Hiddent"
+msgstr ""
+
+#: elementor/parallax.php:294
+msgid "Box"
+msgstr ""
+
+#: elementor/parallax.php:297
+msgid "Custom"
+msgstr ""
+
+#: elementor/parallax.php:307 elementor/parallax.php:339
+#: elementor/parallax.php:357
+msgid "URL to embed"
+msgstr ""
+
+#: elementor/single_causes_widget.php:47
+msgid "Single Cause Widget"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:78
+msgid "Projects Gross Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:86
+msgid "Charities Gross Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:94
+msgid "General Gross Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:103
+msgid "Others Gross Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:111
+msgid "Total Revenue to Date"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:118
+msgid "Recurring Donations to Date"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:249
+msgid "Total Amount collected for Projects"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:250
+#: includes/Classes/DashboardCharts.php:281
+#: includes/Classes/DashboardCharts.php:311
+#: includes/Classes/DashboardCharts.php:342
+#: includes/Classes/DashboardCharts.php:374
+#: includes/Classes/DashboardCharts.php:405
+msgid "Total number of donations made"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:280
+msgid "Total Amount collected for Charities"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:310
+msgid "Total Amount collected for General"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:341
+#: includes/Classes/DashboardCharts.php:373
+msgid "Total Amount collected for Others"
+msgstr ""
+
+#: includes/Classes/DashboardCharts.php:404
+msgid "Total Amount recurring Donations"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:53
+msgid "Top Donating Projects"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:54
+msgid "Or search for specific Project"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:67 includes/Classes/DashboardMisc.php:97
+msgid "Donors"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:71 includes/Classes/DashboardMisc.php:101
+#: templates/emails/customer-new-donation.php:100
+#: templates/emails/owner-new-donation.php:110
+#: vendor/webinane/webinane-commerce/config/i18n.php:9
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:223
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:328
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:564
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1189
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-items.php:10
+#: vendor/webinane/webinane-commerce/templates/checkout/items.php:11
+#: vendor/webinane/webinane-commerce/templates/emails/customer-new-order.php:112
+#: vendor/webinane/webinane-commerce/templates/emails/layouts/template.php:112
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:73
+#: vendor/webinane/webinane-commerce/templates/orders/order-detail.php:16
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:67
+msgid "Total"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:75 includes/Classes/DashboardMisc.php:105
+msgid "Average"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:83
+msgid "Top Donating Charities"
+msgstr ""
+
+#: includes/Classes/DashboardMisc.php:84
+msgid "Or search for specific Charity"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:67
+msgid "Projects Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:70
+#: includes/Classes/DashboardStats.php:80
+#: includes/Classes/DashboardStats.php:90
+msgid "Previous Year"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:77
+msgid "Causes Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:87
+msgid "General Donation Revenue"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:97
+msgid "Donations all the time"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:106
+msgid "Pending Donations"
+msgstr ""
+
+#: includes/Classes/DashboardStats.php:115
+msgid "Cancelled Donations"
+msgstr ""
+
+#: includes/Classes/GeneralDonation.php:72
+msgid "Donation for all Projects & Charities"
+msgstr ""
+
+#: includes/Classes/GeneralDonation.php:77
+msgid "Donation for all Projects"
+msgstr ""
+
+#: includes/Classes/GeneralDonation.php:82
+#: includes/Classes/GeneralDonation.php:89
+msgid "Donation for all Charities"
+msgstr ""
+
+#: includes/Classes/GeneralDonation.php:202
+#: includes/Classes/SingleDonation.php:139
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:182
+msgid "Please refresh the page and try again"
+msgstr ""
+
+#: includes/Classes/GeneralDonation.php:251
+#: includes/Classes/SingleDonation.php:188
+#: vendor/webinane/webinane-commerce/includes/Classes/Metaboxes.php:102
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:365
+msgid "There is something went wrong"
+msgstr ""
+
+#: includes/Classes/LifelineDonation.php:31
+msgid "Lifeline Donation Settings"
+msgstr ""
+
+#: includes/Helpers/DonationData.php:33
+msgid "US Dollar"
+msgstr ""
+
+#: includes/Helpers/DonationData.php:143
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:154
+msgid "Please provide a valid email"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:55
+#: includes/class-lifeline-donation.php:61 includes/load.php:117
+#: shortcodes/campaigns1.php:111 shortcodes/campaigns2.php:111
+#: shortcodes/campaigns3.php:111 shortcodes/campaigns4.php:116
+#: shortcodes/campaigns5.php:111 shortcodes/output/partials/donors.php:11
+#: shortcodes/parallax3.php:133 templates/emails/customer-new-donation.php:11
+#: templates/emails/owner-new-donation.php:11
+msgid "Donation"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:246
+#: includes/class-lifeline-donation.php:301
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:50
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:135
+msgid "Security verification failed"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:272
+msgid "No currency data provided"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:324
+msgid "Donation Setting"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:361
+msgid "Donation History Page"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:365
+msgid ""
+"This page shows a complete donation history for the specific user. The "
+"donation history \"shortcode should be on this page.\""
+msgstr ""
+
+#: includes/class-lifeline-donation.php:389
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:394 templates/modal/modal3.php:17
+msgid "Collected"
+msgstr ""
+
+#: includes/class-lifeline-donation.php:395
+msgid "Target"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:393
+#: includes/class-tgm-plugin-activation.php:920
+#: includes/class-tgm-plugin-activation.php:2626
+#: includes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+#: includes/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+#: includes/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1027
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2075
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2485
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2489
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2493
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2647
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:330
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2696
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2701
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2707
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2810
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:36
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2816
+#: vendor/webinane/webinane-commerce/includes/Fields/Media.php:73
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2819
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:39
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3591
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3594
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3596
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3602
+#: includes/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3610
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3613
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/functions.php:237 includes/functions.php:239
+msgid "All Categories"
+msgstr ""
+
+#: includes/load.php:119
+msgid "Add New Donation"
+msgstr ""
+
+#: includes/load.php:120
+msgid "Edit Donation"
+msgstr ""
+
+#: includes/load.php:121
+msgid "New Donation"
+msgstr ""
+
+#: includes/load.php:122
+msgid "View Donation"
+msgstr ""
+
+#: includes/load.php:123
+msgid "Search Donations"
+msgstr ""
+
+#: includes/load.php:124
+msgid "No Donations found"
+msgstr ""
+
+#: includes/load.php:125
+msgid "No Donations found in Trash"
+msgstr ""
+
+#: includes/load.php:126
+msgid "Parent Donation:"
+msgstr ""
+
+#: includes/tgm-init.php:18
+msgid "Webinane Commerce"
+msgstr ""
+
+#: post-types/cause.php:43 post-types/cause.php:91 shortcodes/campaigns1.php:28
+#: shortcodes/campaigns2.php:28 shortcodes/campaigns3.php:28
+#: shortcodes/campaigns4.php:33 shortcodes/campaigns5.php:28
+msgid "Causes"
+msgstr ""
+
+#: post-types/cause.php:45
+msgid "Cause"
+msgstr ""
+
+#: post-types/cause.php:47
+msgid "All Causes"
+msgstr ""
+
+#: post-types/cause.php:49
+msgid "Cause Archives"
+msgstr ""
+
+#: post-types/cause.php:51
+msgid "Cause Attributes"
+msgstr ""
+
+#: post-types/cause.php:53
+msgid "Insert into Cause"
+msgstr ""
+
+#: post-types/cause.php:55
+msgid "Uploaded to this Cause"
+msgstr ""
+
+#: post-types/cause.php:65
+msgid "Filter Causes list"
+msgstr ""
+
+#: post-types/cause.php:67
+msgid "Causes list navigation"
+msgstr ""
+
+#: post-types/cause.php:69
+msgid "Causes list"
+msgstr ""
+
+#: post-types/cause.php:71
+msgid "New Cause"
+msgstr ""
+
+#: post-types/cause.php:73 post-types/project.php:57
+#: vendor/webinane/webinane-commerce/includes/Fields/Media.php:53
+msgid "Add New"
+msgstr ""
+
+#: post-types/cause.php:75
+msgid "Add New Cause"
+msgstr ""
+
+#: post-types/cause.php:77
+msgid "Edit Cause"
+msgstr ""
+
+#: post-types/cause.php:79
+msgid "View Cause"
+msgstr ""
+
+#: post-types/cause.php:81
+msgid "View Causes"
+msgstr ""
+
+#: post-types/cause.php:83
+msgid "Search Causes"
+msgstr ""
+
+#: post-types/cause.php:85
+msgid "No Causes found"
+msgstr ""
+
+#: post-types/cause.php:87
+msgid "No Causes found in trash"
+msgstr ""
+
+#: post-types/cause.php:89
+msgid "Parent Cause:"
+msgstr ""
+
+#: post-types/cause.php:142
+#. translators: %s: post permalink
+msgid "Cause updated. <a target=\"_blank\" href=\"%s\">View Cause</a>"
+msgstr ""
+
+#: post-types/cause.php:143 post-types/project.php:113
+msgid "Custom field updated."
+msgstr ""
+
+#: post-types/cause.php:144 post-types/project.php:114
+msgid "Custom field deleted."
+msgstr ""
+
+#: post-types/cause.php:145
+msgid "Cause updated."
+msgstr ""
+
+#: post-types/cause.php:147
+#. translators: %s: date and time of the revision
+msgid "Cause restored to revision from %s"
+msgstr ""
+
+#: post-types/cause.php:149
+#. translators: %s: post permalink
+msgid "Cause published. <a href=\"%s\">View Cause</a>"
+msgstr ""
+
+#: post-types/cause.php:150
+msgid "Cause saved."
+msgstr ""
+
+#: post-types/cause.php:152
+#. translators: %s: post permalink
+msgid "Cause submitted. <a target=\"_blank\" href=\"%s\">Preview Cause</a>"
+msgstr ""
+
+#: post-types/cause.php:154
+#. translators: 1: Publish box date format, see https:secure.php.net/date 2:
+#. Post permalink
+msgid ""
+"Cause scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Cause</a>"
+msgstr ""
+
+#: post-types/cause.php:155 post-types/project.php:125
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: post-types/cause.php:157
+#. translators: %s: post permalink
+msgid "Cause draft updated. <a target=\"_blank\" href=\"%s\">Preview Cause</a>"
+msgstr ""
+
+#: post-types/cause.php:176
+msgid "Cause Base"
+msgstr ""
+
+#: post-types/cause.php:177
+msgid "Cause Category Base"
+msgstr ""
+
+#: post-types/project.php:42 post-types/project.php:66
+#: shortcodes/campaigns1.php:28 shortcodes/campaigns2.php:28
+#: shortcodes/campaigns3.php:28 shortcodes/campaigns4.php:33
+#: shortcodes/campaigns5.php:28
+#: templates/donation-modal/general-donation-dropdowns.php:38
+msgid "Projects"
+msgstr ""
+
+#: post-types/project.php:43
+msgid "Project"
+msgstr ""
+
+#: post-types/project.php:44
+#: templates/donation-modal/general-donation-dropdowns.php:16
+msgid "All Projects"
+msgstr ""
+
+#: post-types/project.php:45
+msgid "Project Archives"
+msgstr ""
+
+#: post-types/project.php:46
+msgid "Project Attributes"
+msgstr ""
+
+#: post-types/project.php:47
+msgid "Insert into project"
+msgstr ""
+
+#: post-types/project.php:48
+msgid "Uploaded to this project"
+msgstr ""
+
+#: post-types/project.php:53
+msgid "Filter projects list"
+msgstr ""
+
+#: post-types/project.php:54
+msgid "Projects list navigation"
+msgstr ""
+
+#: post-types/project.php:55
+msgid "Projects list"
+msgstr ""
+
+#: post-types/project.php:56
+msgid "New Project"
+msgstr ""
+
+#: post-types/project.php:58
+msgid "Add New Project"
+msgstr ""
+
+#: post-types/project.php:59
+msgid "Edit Project"
+msgstr ""
+
+#: post-types/project.php:60
+msgid "View Project"
+msgstr ""
+
+#: post-types/project.php:61
+msgid "View Projects"
+msgstr ""
+
+#: post-types/project.php:62
+msgid "Search projects"
+msgstr ""
+
+#: post-types/project.php:63
+msgid "No projects found"
+msgstr ""
+
+#: post-types/project.php:64
+msgid "No projects found in trash"
+msgstr ""
+
+#: post-types/project.php:65
+msgid "Parent Project:"
+msgstr ""
+
+#: post-types/project.php:112
+#. translators: %s: post permalink
+msgid "Project updated. <a target=\"_blank\" href=\"%s\">View project</a>"
+msgstr ""
+
+#: post-types/project.php:115
+msgid "Project updated."
+msgstr ""
+
+#: post-types/project.php:117
+#. translators: %s: date and time of the revision
+msgid "Project restored to revision from %s"
+msgstr ""
+
+#: post-types/project.php:119
+#. translators: %s: post permalink
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr ""
+
+#: post-types/project.php:120
+msgid "Project saved."
+msgstr ""
+
+#: post-types/project.php:122
+#. translators: %s: post permalink
+msgid "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+
+#: post-types/project.php:124
+#. translators: 1: Publish box date format, see https:secure.php.net/date 2:
+#. Post permalink
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview project</a>"
+msgstr ""
+
+#: post-types/project.php:127
+#. translators: %s: post permalink
+msgid "Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+
+#: post-types/project.php:146
+msgid "Project Base"
+msgstr ""
+
+#: post-types/project.php:147
+msgid "Project Category Base"
+msgstr ""
+
+#: shortcodes/button.php:40
+msgid "Pixel"
+msgstr ""
+
+#: shortcodes/button.php:51
+msgid "Classic Grey"
+msgstr ""
+
+#: shortcodes/button.php:52
+msgid "Classic Blue"
+msgstr ""
+
+#: shortcodes/button.php:53
+msgid "Classic Turquoise"
+msgstr ""
+
+#: shortcodes/button.php:54
+msgid "Classic Green"
+msgstr ""
+
+#: shortcodes/button.php:55
+msgid "Classic Orange"
+msgstr ""
+
+#: shortcodes/button.php:56
+msgid "Classic Red"
+msgstr ""
+
+#: shortcodes/button.php:57
+msgid "Classic Black"
+msgstr ""
+
+#: shortcodes/button.php:69
+msgid "parallax Image"
+msgstr ""
+
+#: shortcodes/button.php:71 shortcodes/parallax.php:31
+msgid "Upload parallax image to show."
+msgstr ""
+
+#: shortcodes/button.php:75
+msgid "Parallax Layer Color"
+msgstr ""
+
+#: shortcodes/button.php:77
+msgid "Select parallax image layer color."
+msgstr ""
+
+#: shortcodes/button.php:83 shortcodes/donation_parallax2.php:32
+msgid "Select Icon Type"
+msgstr ""
+
+#: shortcodes/button.php:86 shortcodes/donation_parallax2.php:35
+msgid "Font Icon"
+msgstr ""
+
+#: shortcodes/button.php:87 shortcodes/donation_parallax2.php:36
+msgid "Image icon"
+msgstr ""
+
+#: shortcodes/button.php:89 shortcodes/donation_parallax2.php:38
+msgid "Select icon type that you wants to use."
+msgstr ""
+
+#: shortcodes/button.php:94 shortcodes/donation_parallax2.php:43
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: shortcodes/button.php:96 shortcodes/donation_parallax2.php:45
+msgid "Select font awesome icon that you wants to show."
+msgstr ""
+
+#: shortcodes/button.php:105 shortcodes/donation_parallax2.php:54
+msgid "Image Icon"
+msgstr ""
+
+#: shortcodes/button.php:107 shortcodes/donation_parallax2.php:56
+msgid "Upload image. icon to show."
+msgstr ""
+
+#: shortcodes/button.php:117 shortcodes/parallax.php:37
+msgid "Enter main title to show."
+msgstr ""
+
+#: shortcodes/button.php:118 shortcodes/parallax.php:38
+msgid "How Volunteers of America helps assist homeless people."
+msgstr ""
+
+#: shortcodes/button.php:124 shortcodes/parallax.php:44
+#: shortcodes/parallax4.php:44 shortcodes/parallax5.php:44
+msgid "Enter text to show."
+msgstr ""
+
+#: shortcodes/button.php:129 shortcodes/button.php:138
+#: shortcodes/button.php:150 shortcodes/button.php:166
+#: shortcodes/button.php:179 shortcodes/button.php:202
+#: shortcodes/button.php:214 shortcodes/button.php:226
+#: shortcodes/button.php:238 shortcodes/donation_parallax2.php:153
+#: shortcodes/parallax.php:49 shortcodes/parallax.php:58
+#: shortcodes/parallax.php:70 shortcodes/parallax.php:86
+#: shortcodes/parallax.php:98
+msgid "Button 1"
+msgstr ""
+
+#: shortcodes/button.php:132 shortcodes/parallax.php:52
+msgid "Enable to show button 1."
+msgstr ""
+
+#: shortcodes/button.php:139 shortcodes/parallax.php:59
+msgid "start a campaign"
+msgstr ""
+
+#: shortcodes/button.php:151 shortcodes/button.php:273
+#: shortcodes/campaigns1.php:96 shortcodes/campaigns2.php:96
+#: shortcodes/campaigns3.php:96 shortcodes/campaigns4.php:101
+#: shortcodes/campaigns5.php:96 shortcodes/donation_parallax2.php:102
+#: shortcodes/parallax.php:71 shortcodes/parallax.php:144
+#: shortcodes/parallax2.php:65 shortcodes/parallax3.php:74
+#: shortcodes/parallax3.php:145 shortcodes/parallax4.php:71
+#: shortcodes/parallax5.php:71
+msgid "Choose whether to show donation popup or link to a page"
+msgstr ""
+
+#: shortcodes/button.php:153 shortcodes/button.php:276
+#: shortcodes/campaigns1.php:98 shortcodes/campaigns2.php:98
+#: shortcodes/campaigns3.php:98 shortcodes/campaigns4.php:103
+#: shortcodes/campaigns5.php:98 shortcodes/donation_parallax2.php:104
+#: shortcodes/parallax.php:73 shortcodes/parallax.php:146
+#: shortcodes/parallax2.php:67 shortcodes/parallax3.php:76
+#: shortcodes/parallax3.php:147 shortcodes/parallax4.php:73
+#: shortcodes/parallax5.php:73
+msgid "Show Donation Popup"
+msgstr ""
+
+#: shortcodes/button.php:154 shortcodes/button.php:277
+#: shortcodes/donation_parallax2.php:105 shortcodes/parallax.php:74
+#: shortcodes/parallax.php:147 shortcodes/parallax2.php:68
+#: shortcodes/parallax3.php:77 shortcodes/parallax3.php:148
+#: shortcodes/parallax4.php:74 shortcodes/parallax5.php:74
+msgid "Redirect to a Link"
+msgstr ""
+
+#: shortcodes/button.php:164 shortcodes/button.php:287
+#: shortcodes/donation_parallax2.php:115 shortcodes/parallax.php:84
+#: shortcodes/parallax.php:157 shortcodes/parallax2.php:78
+#: shortcodes/parallax3.php:87 shortcodes/parallax3.php:158
+#: shortcodes/parallax4.php:84 shortcodes/parallax5.php:84
+msgid "URL"
+msgstr ""
+
+#: shortcodes/button.php:167 shortcodes/button.php:289
+#: shortcodes/donation_parallax2.php:118 shortcodes/parallax.php:87
+#: shortcodes/parallax.php:159 shortcodes/parallax2.php:81
+#: shortcodes/parallax3.php:90 shortcodes/parallax3.php:161
+#: shortcodes/parallax4.php:87 shortcodes/parallax5.php:87
+msgid "Enter the link"
+msgstr ""
+
+#: shortcodes/button.php:177 shortcodes/button.php:299
+#: shortcodes/button2.php:50 shortcodes/donation_parallax2.php:128
+#: shortcodes/donation_template.php:28 shortcodes/parallax.php:96
+#: shortcodes/parallax.php:169 shortcodes/parallax2.php:90
+#: shortcodes/parallax3.php:99 shortcodes/parallax3.php:170
+#: shortcodes/parallax4.php:96 shortcodes/parallax5.php:96
+msgid "Post to collect Donation"
+msgstr ""
+
+#: shortcodes/button.php:180 shortcodes/button.php:301
+#: shortcodes/button2.php:52 shortcodes/donation_parallax2.php:131
+#: shortcodes/donation_template.php:30 shortcodes/parallax.php:99
+#: shortcodes/parallax.php:171 shortcodes/parallax2.php:93
+#: shortcodes/parallax3.php:102 shortcodes/parallax3.php:173
+#: shortcodes/parallax4.php:99 shortcodes/parallax5.php:99
+msgid "Choose the post to collect donation"
+msgstr ""
+
+#: shortcodes/button.php:200 shortcodes/donation_parallax2.php:151
+msgid "Button Background Color"
+msgstr ""
+
+#: shortcodes/button.php:203 shortcodes/donation_parallax2.php:154
+msgid "Select button background color."
+msgstr ""
+
+#: shortcodes/button.php:212
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: shortcodes/button.php:215
+msgid "Select button background color on hover."
+msgstr ""
+
+#: shortcodes/button.php:224 shortcodes/button.php:322
+#: shortcodes/donation_parallax2.php:163
+msgid "Button Color"
+msgstr ""
+
+#: shortcodes/button.php:227 shortcodes/donation_parallax2.php:166
+msgid "Select button color."
+msgstr ""
+
+#: shortcodes/button.php:236
+msgid "Button Color on Hover"
+msgstr ""
+
+#: shortcodes/button.php:239
+msgid "Select button color on hover."
+msgstr ""
+
+#: shortcodes/button.php:250 shortcodes/button.php:259
+#: shortcodes/button.php:272 shortcodes/button.php:290
+#: shortcodes/button.php:302 shortcodes/button.php:324
+#: shortcodes/parallax.php:121 shortcodes/parallax.php:130
+#: shortcodes/parallax.php:143 shortcodes/parallax.php:160
+#: shortcodes/parallax.php:172 shortcodes/parallax3.php:123
+#: shortcodes/parallax3.php:132 shortcodes/parallax3.php:144
+#: shortcodes/parallax3.php:160 shortcodes/parallax3.php:172
+msgid "Button 2"
+msgstr ""
+
+#: shortcodes/button.php:253 shortcodes/parallax.php:124
+#: shortcodes/parallax3.php:126
+msgid "Enable to show button 2."
+msgstr ""
+
+#: shortcodes/button.php:260 shortcodes/parallax.php:131
+msgid "Enter button label to show."
+msgstr ""
+
+#: shortcodes/button.php:261 shortcodes/parallax.php:132
+msgid "or donate instead!"
+msgstr ""
+
+#: shortcodes/button.php:325
+msgid "Select button 2 color."
+msgstr ""
+
+#: shortcodes/button.php:339
+msgid "Parallax Donation"
+msgstr ""
+
+#: shortcodes/button.php:345
+msgid "Parallax donation"
+msgstr ""
+
+#: shortcodes/button2.php:29 shortcodes/button2.php:79
+msgid "Donation button"
+msgstr ""
+
+#: shortcodes/button2.php:53
+msgid "Donation Settings"
+msgstr ""
+
+#: shortcodes/campaigns1.php:17
+msgid "Campaign Style 1"
+msgstr ""
+
+#: shortcodes/campaigns1.php:26 shortcodes/campaigns2.php:26
+#: shortcodes/campaigns3.php:26 shortcodes/campaigns4.php:31
+#: shortcodes/campaigns5.php:26
+msgid "Select Post Type"
+msgstr ""
+
+#: shortcodes/campaigns1.php:29 shortcodes/campaigns2.php:29
+#: shortcodes/campaigns3.php:29 shortcodes/campaigns4.php:34
+#: shortcodes/campaigns5.php:29
+msgid "Select post type which you wants to show in this section"
+msgstr ""
+
+#: shortcodes/campaigns1.php:37 shortcodes/campaigns2.php:37
+#: shortcodes/campaigns3.php:37 shortcodes/campaigns4.php:42
+#: shortcodes/campaigns5.php:37
+msgid "Enter the number of events to show in this section"
+msgstr ""
+
+#: shortcodes/campaigns1.php:42 shortcodes/campaigns1.php:54
+#: shortcodes/campaigns2.php:42 shortcodes/campaigns2.php:54
+#: shortcodes/campaigns3.php:42 shortcodes/campaigns3.php:54
+#: shortcodes/campaigns4.php:47 shortcodes/campaigns4.php:59
+#: shortcodes/campaigns5.php:42 shortcodes/campaigns5.php:54
+msgid "Select Categories"
+msgstr ""
+
+#: shortcodes/campaigns1.php:45 shortcodes/campaigns2.php:45
+#: shortcodes/campaigns3.php:45 shortcodes/campaigns4.php:50
+#: shortcodes/campaigns5.php:45
+msgid "Choose cause categories for which cause you wants to show"
+msgstr ""
+
+#: shortcodes/campaigns1.php:57 shortcodes/campaigns2.php:57
+#: shortcodes/campaigns3.php:57 shortcodes/campaigns4.php:62
+#: shortcodes/campaigns5.php:57
+msgid "Choose project categories for which projects you wants to show"
+msgstr ""
+
+#: shortcodes/campaigns1.php:68 shortcodes/campaigns2.php:68
+#: shortcodes/campaigns3.php:68 shortcodes/campaigns4.php:73
+#: shortcodes/campaigns5.php:68
+msgid "Ascending"
+msgstr ""
+
+#: shortcodes/campaigns1.php:68 shortcodes/campaigns2.php:68
+#: shortcodes/campaigns3.php:68 shortcodes/campaigns4.php:73
+#: shortcodes/campaigns5.php:68
+msgid "Descending"
+msgstr ""
+
+#: shortcodes/campaigns1.php:69 shortcodes/campaigns2.php:69
+#: shortcodes/campaigns3.php:69 shortcodes/campaigns4.php:74
+#: shortcodes/campaigns5.php:69
+msgid "Select sorting order ascending or descending for blog listing"
+msgstr ""
+
+#: shortcodes/campaigns1.php:77 shortcodes/campaigns2.php:77
+#: shortcodes/campaigns3.php:77 shortcodes/campaigns4.php:82
+#: shortcodes/campaigns5.php:77 shortcodes/donation_parallax2.php:83
+#: shortcodes/parallax2.php:46 shortcodes/parallax3.php:55
+#: shortcodes/parallax4.php:52 shortcodes/parallax5.php:52
+msgid "Enable to show button."
+msgstr ""
+
+#: shortcodes/campaigns1.php:84 shortcodes/campaigns2.php:84
+#: shortcodes/campaigns3.php:84 shortcodes/campaigns4.php:89
+#: shortcodes/campaigns5.php:84 shortcodes/donation_parallax2.php:90
+#: shortcodes/parallax2.php:53 shortcodes/parallax3.php:62
+#: shortcodes/parallax4.php:59 shortcodes/parallax5.php:59
+msgid "Donate Us"
+msgstr ""
+
+#: shortcodes/campaigns1.php:99 shortcodes/campaigns2.php:99
+#: shortcodes/campaigns3.php:99 shortcodes/campaigns4.php:104
+#: shortcodes/campaigns5.php:99
+msgid "Redirect to post details page"
+msgstr ""
+
+#: shortcodes/campaigns1.php:108 shortcodes/campaigns2.php:108
+#: shortcodes/campaigns3.php:108 shortcodes/campaigns4.php:113
+#: shortcodes/campaigns5.php:108
+msgid "Button  Label"
+msgstr ""
+
+#: shortcodes/campaigns2.php:17
+msgid "Campaign Style 2"
+msgstr ""
+
+#: shortcodes/campaigns3.php:17
+msgid "Campaign Style 3"
+msgstr ""
+
+#: shortcodes/campaigns4.php:22
+msgid "Campaign Style 4"
+msgstr ""
+
+#: shortcodes/campaigns5.php:17
+msgid "Campaign Style 5"
+msgstr ""
+
+#: shortcodes/donation_parallax2.php:16 shortcodes/parallax2.php:18
+msgid "Parallax Style 2"
+msgstr ""
+
+#: shortcodes/donation_parallax2.php:26
+msgid "Select background color."
+msgstr ""
+
+#: shortcodes/donation_template.php:19
+msgid "Donation Template"
+msgstr ""
+
+#: shortcodes/donation_template.php:39
+msgid "Select Layout Style"
+msgstr ""
+
+#: shortcodes/donation_template.php:46
+msgid "Select layout style that you wants to use."
+msgstr ""
+
+#: shortcodes/donation_template.php:53
+msgid "Enter title to show"
+msgstr ""
+
+#: shortcodes/donation_template.php:62
+msgid "<p>I am test text block. Click edit button to change this text.</p>"
+msgstr ""
+
+#: shortcodes/donation_template.php:63
+msgid "Enter your content."
+msgstr ""
+
+#: shortcodes/donor_list.php:23
+msgid "Donor's Donations List"
+msgstr ""
+
+#: shortcodes/donor_list.php:29
+msgid ""
+"Show the list of donation from all donors or from a specific donor by "
+"appending ?user_id=USER_ID in URL"
+msgstr ""
+
+#: shortcodes/output/wi_donation_button.php:41
+msgid "donate instead!"
+msgstr ""
+
+#: shortcodes/output/wi_donation_campaigns2.php:96
+msgid "GOAL:"
+msgstr ""
+
+#: shortcodes/output/wi_donation_campaigns2.php:97 widgets/urgent_cause.php:87
+#: widgets/urgent_project.php:75
+msgid "Raise:"
+msgstr ""
+
+#: shortcodes/output/wi_donation_parallax.php:47
+msgid "or"
+msgstr ""
+
+#: shortcodes/parallax.php:20
+msgid "Parallax Style 1"
+msgstr ""
+
+#: shortcodes/parallax.php:29
+msgid "Parallax Image"
+msgstr ""
+
+#: shortcodes/parallax3.php:20
+msgid "Parallax Style 3"
+msgstr ""
+
+#: shortcodes/parallax3.php:29
+msgid "Side Image"
+msgstr ""
+
+#: shortcodes/parallax3.php:31
+msgid "Upload side image to show."
+msgstr ""
+
+#: shortcodes/parallax3.php:40
+msgid "Enter the title to show"
+msgstr ""
+
+#: shortcodes/parallax3.php:47
+msgid "Enter text to show"
+msgstr ""
+
+#: shortcodes/parallax3.php:130
+msgid "Button 2 Label"
+msgstr ""
+
+#: shortcodes/parallax4.php:18
+msgid "Parallax Style 4"
+msgstr ""
+
+#: shortcodes/parallax4.php:30 shortcodes/parallax5.php:30
+msgid "Upload background to show."
+msgstr ""
+
+#: shortcodes/parallax4.php:37 shortcodes/parallax5.php:37
+msgid "Enter the title to show."
+msgstr ""
+
+#: shortcodes/parallax5.php:18
+msgid "Parallax Style 5"
+msgstr ""
+
+#: taxonomies/cause_cat.php:33
+msgid "Cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:35
+msgid "Search Cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:36
+msgid "Popular Cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:37
+msgid "All Cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:38
+msgid "Parent Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:39
+msgid "Parent Cause Category:"
+msgstr ""
+
+#: taxonomies/cause_cat.php:40
+msgid "Edit Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:41
+msgid "Update Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:42
+msgid "View Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:43
+msgid "Add New Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:44
+msgid "New Cause Category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:45
+msgid "Separate cause Categories with commas"
+msgstr ""
+
+#: taxonomies/cause_cat.php:46
+msgid "Add or remove cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:47
+msgid "Choose from the most used cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:48
+msgid "No cause Categories found."
+msgstr ""
+
+#: taxonomies/cause_cat.php:49
+msgid "No cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:50
+msgid "Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:51
+msgid "Cause Categories list navigation"
+msgstr ""
+
+#: taxonomies/cause_cat.php:52
+msgid "Cause Categories list"
+msgstr ""
+
+#: taxonomies/cause_cat.php:54
+msgid "&larr; Back to Cause Categories"
+msgstr ""
+
+#: taxonomies/cause_cat.php:80
+msgid "Cause Category added."
+msgstr ""
+
+#: taxonomies/cause_cat.php:81
+msgid "Cause Category deleted."
+msgstr ""
+
+#: taxonomies/cause_cat.php:82
+msgid "Cause Category updated."
+msgstr ""
+
+#: taxonomies/cause_cat.php:83
+msgid "Cause Category not added."
+msgstr ""
+
+#: taxonomies/cause_cat.php:84
+msgid "Cause Category not updated."
+msgstr ""
+
+#: taxonomies/cause_cat.php:85
+msgid "Cause Categories deleted."
+msgstr ""
+
+#: taxonomies/project_cat.php:33
+msgid "Project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:35
+msgid "Search Project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:36
+msgid "Popular Project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:37
+msgid "All Project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:38
+msgid "Parent Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:39
+msgid "Parent Project category:"
+msgstr ""
+
+#: taxonomies/project_cat.php:40
+msgid "Edit Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:41
+msgid "Update Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:42
+msgid "View Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:43
+msgid "Add New Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:44
+msgid "New Project category"
+msgstr ""
+
+#: taxonomies/project_cat.php:45
+msgid "Separate project categories with commas"
+msgstr ""
+
+#: taxonomies/project_cat.php:46
+msgid "Add or remove project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:47
+msgid "Choose from the most used project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:48
+msgid "No project categories found."
+msgstr ""
+
+#: taxonomies/project_cat.php:49
+msgid "No project categories"
+msgstr ""
+
+#: taxonomies/project_cat.php:50
+msgid "Category"
+msgstr ""
+
+#: taxonomies/project_cat.php:51
+msgid "Project Categories list navigation"
+msgstr ""
+
+#: taxonomies/project_cat.php:52
+msgid "Project Categories list"
+msgstr ""
+
+#: taxonomies/project_cat.php:54
+msgid "&larr; Back to Project cats"
+msgstr ""
+
+#: taxonomies/project_cat.php:80
+msgid "Project category added."
+msgstr ""
+
+#: taxonomies/project_cat.php:81 taxonomies/project_cat.php:85
+msgid "Project category deleted."
+msgstr ""
+
+#: taxonomies/project_cat.php:82
+msgid "Project category updated."
+msgstr ""
+
+#: taxonomies/project_cat.php:83
+msgid "Project category not added."
+msgstr ""
+
+#: taxonomies/project_cat.php:84
+msgid "Project category not updated."
+msgstr ""
+
+#: templates/donation-modal/currency.php:29 templates/modal/modal3.php:54
+msgid "How much would you like to donate?"
+msgstr ""
+
+#: templates/donation-modal/currency.php:45
+msgid "Enter The Amount You Want"
+msgstr ""
+
+#: templates/donation-modal/currency.php:53 templates/modal/modal2.php:84
+msgid "Proceed"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:8
+msgid "Where would you like to donate to?"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:12
+msgid "All Projects & Charities"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:20
+msgid "All Charities"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:25
+msgid "Make my own selection"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:34
+msgid "Choose Custom Donation Options"
+msgstr ""
+
+#: templates/donation-modal/general-donation-dropdowns.php:46
+msgid "Charities"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:2
+#: templates/donation-templates/donation-page-2.php:128
+#: templates/donation-templates/donation-page-3.php:122
+#: templates/modal/modal2.php:109 templates/modal/modal3.php:122
+msgid "Go Back"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:6
+msgid "Select your payment option"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:30
+#: templates/donation-templates/donation-page-2.php:95
+#: templates/donation-templates/donation-page-2.php:97
+#: templates/donation-templates/donation-page-3.php:93
+#: templates/donation-templates/donation-page-3.php:95
+#: templates/modal/modal2.php:49 templates/modal/modal2.php:51
+#: templates/modal/modal3.php:82 templates/modal/modal3.php:84
+msgid "Payment Cycle"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:31
+#: templates/donation-templates/donation-page-2.php:96
+#: templates/donation-templates/donation-page-3.php:94
+#: templates/modal/modal2.php:50 templates/modal/modal3.php:83
+msgid "Daily"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:32
+msgid "Every Week"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:33
+msgid "Every 2 Weeks"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:34
+msgid "Every month"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:35
+msgid "Quarterly"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:36
+#: templates/donation-templates/donation-page-2.php:102
+#: templates/donation-templates/donation-page-3.php:100
+#: templates/modal/modal2.php:56 templates/modal/modal3.php:89
+msgid "Yearly"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:45
+#: templates/donation-templates/donation-page-2.php:109
+#: templates/modal/modal3.php:97
+msgid "Personal Detail"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:52
+#: templates/donation-templates/donation-page-2.php:111
+#: templates/donation-templates/donation-page-3.php:109
+#: templates/modal/modal2.php:95 templates/modal/modal3.php:100
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:13
+#: vendor/webinane/webinane-commerce/config/my-account.php:34
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:8
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:8
+msgid "First Name"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:57
+#: templates/donation-templates/donation-page-2.php:112
+#: templates/donation-templates/donation-page-3.php:110
+#: templates/modal/modal2.php:96 templates/modal/modal3.php:103
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:19
+#: vendor/webinane/webinane-commerce/config/my-account.php:38
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:9
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:9
+msgid "Last Name"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:63
+#: templates/donation-modal/payment-methods.php:65
+#: templates/donation-templates/donation-page-2.php:114
+#: templates/donation-templates/donation-page-2.php:116
+#: templates/donation-templates/donation-page-3.php:111
+#: templates/modal/modal2.php:97
+msgid "Email Id"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:71
+#: templates/donation-templates/donation-page-2.php:118
+#: templates/donation-templates/donation-page-3.php:112
+#: templates/modal/modal2.php:98
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:42
+msgid "Phone Number"
+msgstr ""
+
+#: templates/donation-modal/payment-methods.php:76
+#: templates/donation-templates/donation-page-2.php:119
+#: templates/donation-templates/donation-page-3.php:113
+#: templates/modal/modal2.php:99 templates/modal/modal3.php:112
+#: vendor/webinane/webinane-commerce/config/my-account.php:45
+msgid "Address"
+msgstr ""
+
+#: templates/donation-shortcode.php:30
+#: templates/donation-templates/donation-page.php:43
+#: templates/modal/modal.php:33
+msgid "Current Collection"
+msgstr ""
+
+#: templates/donation-shortcode.php:33
+#: templates/donation-templates/donation-page.php:46
+#: templates/modal/modal.php:36
+msgid "Target Needed"
+msgstr ""
+
+#: templates/donation-shortcode.php:36
+#: templates/donation-templates/donation-page.php:50
+#: templates/modal/modal.php:39
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:231
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:352
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:646
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:138
+msgid "Completed"
+msgstr ""
+
+#: templates/donation-shortcode.php:56
+#: templates/donation-templates/donation-page.php:60
+msgid "Please Select the payment type"
+msgstr ""
+
+#: templates/donation-shortcode.php:61
+#: templates/donation-templates/donation-page-2.php:69
+#: templates/donation-templates/donation-page-3.php:78
+#: templates/donation-templates/donation-page.php:65
+#: templates/modal/modal.php:64 templates/modal/modal2.php:23
+#: templates/modal/modal3.php:28
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:335
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:172
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:962
+msgid "Recurring"
+msgstr ""
+
+#: templates/donation-shortcode.php:64
+#: templates/donation-templates/donation-page-2.php:70
+#: templates/donation-templates/donation-page-3.php:79
+#: templates/donation-templates/donation-page.php:68
+#: templates/modal/modal.php:67 templates/modal/modal2.php:24
+#: templates/modal/modal3.php:29
+msgid "One Time"
+msgstr ""
+
+#: templates/donation-templates/donation-page-2.php:98
+#: templates/donation-templates/donation-page-3.php:96
+#: templates/modal/modal2.php:52 templates/modal/modal3.php:85
+msgid "Fortnightly"
+msgstr ""
+
+#: templates/donation-templates/donation-page-2.php:99
+#: templates/donation-templates/donation-page-3.php:97
+#: templates/modal/modal2.php:53 templates/modal/modal3.php:86
+msgid "Monthly"
+msgstr ""
+
+#: templates/donation-templates/donation-page-2.php:100
+#: templates/donation-templates/donation-page-3.php:98
+#: templates/modal/modal2.php:54 templates/modal/modal3.php:87
+msgid "Quaterly"
+msgstr ""
+
+#: templates/donation-templates/donation-page-2.php:101
+#: templates/donation-templates/donation-page-3.php:99
+#: templates/modal/modal2.php:55 templates/modal/modal3.php:88
+msgid "Half yearly"
+msgstr ""
+
+#: templates/emails/customer-new-donation.php:90
+#: templates/emails/owner-new-donation.php:100
+#: vendor/webinane/webinane-commerce/templates/emails/customer-new-order.php:101
+#: vendor/webinane/webinane-commerce/templates/emails/layouts/template.php:101
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:72
+#: vendor/webinane/webinane-commerce/templates/orders/order-detail.php:14
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:66
+msgid "Quantity"
+msgstr ""
+
+#: templates/emails/customer-new-donation.php:113
+#: vendor/webinane/webinane-commerce/templates/emails/customer-new-order.php:125
+msgid "VIEW %s"
+msgstr ""
+
+#: templates/emails/customer-new-donation.php:133
+#: templates/emails/owner-new-donation.php:143
+msgid "Hi, %s"
+msgstr ""
+
+#: templates/emails/customer-new-donation.php:135
+msgid "Thank you for the %s"
+msgstr ""
+
+#: templates/emails/owner-new-donation.php:90
+msgid "Shipping"
+msgstr ""
+
+#: templates/emails/owner-new-donation.php:93
+msgid "Free"
+msgstr ""
+
+#: templates/emails/owner-new-donation.php:123
+#: vendor/webinane/webinane-commerce/templates/emails/layouts/template.php:125
+msgid "View %s"
+msgstr ""
+
+#: templates/emails/owner-new-donation.php:145
+msgid "Thank you for the %"
+msgstr ""
+
+#: templates/modal/modal2.php:13
+msgid "CVV"
+msgstr ""
+
+#: templates/modal/modal3.php:13
+msgid "Needed"
+msgstr ""
+
+#: templates/modal/modal3.php:106
+#: vendor/webinane/webinane-commerce/config/my-account.php:22
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:45
+msgid "Email Address"
+msgstr ""
+
+#: templates/modal/modal3.php:109
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:41
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:41
+msgid "Phone No"
+msgstr ""
+
+#: templates/pagination.php:9 templates/pagination.php:14
+msgid "Previous"
+msgstr ""
+
+#: templates/pagination.php:40 templates/pagination.php:43
+msgid "Next"
+msgstr ""
+
+#: templates/post-templates/archive_template.php:48
+#: templates/post-templates/main-content.php:20
+msgid "By"
+msgstr ""
+
+#: templates/post-templates/main-content.php:37
+#: templates/post-templates/main-content.php:50
+#: templates/post-templates/main-content.php:57
+msgid "Needed Donation"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:6
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:297
+msgid "WP Commerce"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:14
+msgid "Enter the first name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:20
+msgid "Please enter your last name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:25
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:2
+msgid "Address Line 1"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:26
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:32
+msgid "Enter the store address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:31
+#: vendor/webinane/webinane-commerce/config/settings.php:41
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:3
+msgid "Address Line 2"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:37
+#: vendor/webinane/webinane-commerce/config/settings.php:35
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:4
+msgid "City"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:38
+msgid "Enter the store city"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:43
+msgid "Base Country"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:44
+msgid "Choose the base country"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:50
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/checkout_form.php:51
+msgid "Enter the postcode or ZIP"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:5
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-items.php:7
+#: vendor/webinane/webinane-commerce/templates/checkout/items.php:8
+msgid "Item"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:6
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:326
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-items.php:8
+#: vendor/webinane/webinane-commerce/templates/checkout/items.php:9
+msgid "Cost"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:7
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:327
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-items.php:9
+#: vendor/webinane/webinane-commerce/templates/checkout/items.php:10
+msgid "Qty"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:8
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:317
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:71
+#: vendor/webinane/webinane-commerce/templates/orders/order-detail.php:15
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:65
+msgid "Price"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:11
+msgid "to edit this order change the status back to \"pending\""
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:12
+msgid "This order is no longer editable."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:13
+msgid "Add Item"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:14
+msgid "Refund"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:15
+msgid "Sub total"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/i18n.php:16
+msgid "Select product"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:10
+msgid "Personal Profile"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:15
+msgid "Profile Image"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:16
+msgid "Add Avatar"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:17
+msgid "Change Avatar"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:18
+msgid "Choose the avatar you want to show"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:19
+msgid "Account Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:21
+msgid "Enter your name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:23
+msgid "Enter acount email address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:24
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:62
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:33
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:81
+msgid "Password"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:25
+msgid "Enter acount password, leave empty if you do not want to change"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:27
+msgid "Website"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:28
+msgid "Enter acount website address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:29
+msgid "Author Bio"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:31
+msgid "Enter something about you."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:35
+msgid "Billing Information"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:36
+msgid "Enter your first name."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:39
+msgid "Enter your last name."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:40
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:12
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:13
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:12
+msgid "Company Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:41
+msgid "Enter your company name."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:42
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:5
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:16
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:16
+msgid "Country"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:44
+msgid "Choose the country."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:46
+#: vendor/webinane/webinane-commerce/config/my-account.php:48
+msgid "Enter the street address."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:47
+msgid "Address 2"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:49
+msgid "Town / City"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:50
+msgid "Enter the city"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:51
+msgid "Zip / Postcode"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:52
+msgid "Enter the zip or post code"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:53
+msgid "Phone"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:54
+msgid "Enter the phone"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:57
+msgid "Facebook"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:58
+msgid "Social Profiles"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:59
+msgid "Enter the facebook profile URL"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:60
+msgid "Twitter"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:61
+msgid "Enter the twitter profile URL"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:62
+msgid "Linkedin"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:63
+msgid "Enter the linkedin profile URL"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:64
+msgid "Pinterest"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:65
+msgid "Enter the pinterest profile URL"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:70
+msgid "My Orders"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/my-account.php:80
+msgid "Payment Methods"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:20
+msgid "Address Info"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:21
+msgid "Address Information"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:31
+msgid "Select Country and State"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:33
+msgid "Choose the base country and state"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:37
+msgid "Enter the base city"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:38
+msgid "Add Address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:40
+#: vendor/webinane/webinane-commerce/config/settings.php:42
+msgid "Enter the business address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:43
+msgid "ZIP Code"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:45
+msgid "Enter the ZIP / Postal Code"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:51
+msgid "Currency Info"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:52
+msgid "Currency Information"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:55
+msgid "Select Currency"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:58
+msgid "Choose the base currency"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:59
+msgid "Currency Symbol Position"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:62
+msgid "Left (eg: $2,000.00)"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:63
+msgid "Right (eg: 2,000.00$)"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:64
+msgid "Left with Space (eg: $ 2,000.00)"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:65
+msgid "Right with Space (eg: 2,000.00 $)"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:67
+msgid "Choose the currency symbol position"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:69
+msgid "Thousand Saparate"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:71
+msgid "Enter the thousand amount saparator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:72
+msgid "Decimal Separator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:74
+msgid "Enter the decimal saparator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:75
+msgid "Number of decimals"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:77
+msgid "Enter the number of decimals"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:85
+msgid "Payments"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:92
+msgid "Gateway Settings"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:94
+msgid "Test Mode"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:95
+msgid ""
+"While in the test mode no live payments are processed. To fully use test "
+"mode, you must have a sandbox(test) account for payment gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:96
+msgid "Gateways"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:105
+msgid ""
+"Enable your payment gateway. Want to get more payment gateways? <a "
+"href=\"%s\" target=\"_blank\">Click Here</a>"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:108
+msgid "Default Gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:117
+msgid "Choose the default gateway. The gateway will be select by default."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:123
+msgid "Display"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:128
+msgid "Checkout Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:130
+msgid "Choose the checkout page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:132
+msgid "Order Success Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:134
+msgid "Choose the to show when an order is successfull"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:136
+msgid "My Account Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:138
+msgid "Choose the my account page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:140
+msgid "Redirect to Checkout"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:141
+msgid "Redirect user to checkout page after add to cart"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:145
+msgid "Emails"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:151
+msgid "Customer Email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:152
+msgid "Email Setting for Customers"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:155
+#: vendor/webinane/webinane-commerce/config/settings.php:191
+msgid "Subject"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:156
+msgid ""
+"Enter the subject for customer's email. You can use placeholders "
+"<pre>{{customer_name}} {{customer_email}} {{site_name}} {{site_url}}</pre>  "
+"<pre>{{admin_email}} {{customer_account_url}} {{admin_order_url}}</pre> "
+"<pre>{{total_amount}}</pre>"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:157
+msgid "Header Logo"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:158
+#: vendor/webinane/webinane-commerce/config/settings.php:162
+msgid "Add Logo"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:159
+#: vendor/webinane/webinane-commerce/config/settings.php:163
+msgid "Change Logo"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:160
+msgid "Choose the logo you want to show in the email header"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:161
+msgid "Footer Logo"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:164
+msgid "Choose the logo you want to show in the email footer"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:165
+#: vendor/webinane/webinane-commerce/config/settings.php:193
+msgid "Greeting Text"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:167
+#: vendor/webinane/webinane-commerce/config/settings.php:195
+msgid "Enter the greeting text of the email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:168
+#: vendor/webinane/webinane-commerce/config/settings.php:196
+msgid "Email Body"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:169
+#: vendor/webinane/webinane-commerce/config/settings.php:197
+msgid "You can use HTML Tags."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:170
+#: vendor/webinane/webinane-commerce/config/settings.php:198
+msgid "Footer Text"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:172
+#: vendor/webinane/webinane-commerce/config/settings.php:200
+msgid "Enter the text you want to show in footer"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:173
+msgid "Show Quantity"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:175
+msgid "Whether to show the total quantity in email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:176
+msgid "Show Customer Address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:178
+msgid "Whether to show the customer address detail in email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:179
+msgid "Show Item Detail"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:181
+msgid "Whether to show the item or donation detail in email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:187
+msgid "Admin Email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:188
+msgid "Email Setting for Admin"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/config/settings.php:192
+msgid ""
+"Enter the subject for admin's email. You can use placeholders "
+"<pre>{{customer_name}} {{customer_email}} {{site_name}} {{site_url}}</pre>  "
+"<pre>{{admin_email}} {{customer_account_url}} {{admin_order_url}}</pre> "
+"<pre>{{total_amount}}</pre>"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:33
+msgid "You are not authorized to do this action"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:148
+msgid "Invalid Customer ID provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:153
+msgid "Specified customer is not found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:157
+msgid "Invalid customer email provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:167
+msgid "Customer is updated Successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:217
+msgid "Customer is not found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Dashboard.php:221
+msgid "Customer is deleted Successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:55
+msgid "WPCM Checkout Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:57
+msgid "WPCM Order Success Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:59
+msgid "WPCM My Account Page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:139
+msgid "Sucurity verification failed"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:143
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:424
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:286
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:319
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:333
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:359
+#: vendor/webinane/webinane-commerce/includes/Classes/Metaboxes.php:92
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:161
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:782
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:838
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:874
+msgid "You are not authorized"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:174
+msgid "Settings are updated successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:176
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:173
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:908
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:344
+msgid "Something went wrong"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:197
+msgid "Invalid File provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:205
+msgid "Invalid URL Provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:224
+msgid "Please provide a proper json data"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:228
+msgid "Settings are imported successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:296
+msgid "WP Commerce Settings"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:306
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:307
+msgid "Dashboard"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:315
+msgid "Webinane Extensions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:316
+msgid "Extensions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:327
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:315
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:542
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:193
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:204
+#: vendor/webinane/webinane-commerce/templates/emails/customer-new-order.php:11
+#: vendor/webinane/webinane-commerce/templates/emails/layouts/template.php:11
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:18
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:14
+msgid "Orders"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Admin/Settings.php:440
+msgid "File is valid, and was successfully uploaded."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:58
+msgid "Item id is not provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:74
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:77
+msgid "Item added to cart"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:89
+#: vendor/webinane/webinane-commerce/includes/Classes/Ajax.php:103
+msgid "Security check failed, try again after refresh the page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:66
+msgid "Added to cart"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:85
+msgid "Removed from cart"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:141
+msgid "Your cart is empty"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:279
+msgid "Billing Email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:280
+msgid "Billing First Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:281
+msgid "Billing Address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:282
+msgid "Billing City"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:283
+msgid "Billing Country"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:284
+msgid "Security check"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Checkout.php:285
+msgid "Payment Gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:139
+msgid "There is something wrong with adding customer"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:217
+msgid "Customer not found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:296
+msgid "Invalid email address provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:299
+msgid "Name is either empty or size is less than 4"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:310
+msgid "Customer is created successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:338
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:364
+msgid "Invalid Customer ID"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:344
+msgid "Given customer not found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Customers.php:350
+msgid "Customer is removed"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/DashboardWidgets.php:23
+msgid "WP Commerce Status"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:88
+msgid "You order has been received - %s"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:130
+msgid "New order is received - %s"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:171
+msgid "Invoice for order # %s - %s"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:224
+msgid "VAT"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:225
+msgid "Total due"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:228
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:349
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:643
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:135
+msgid "Pending Payment"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:229
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:350
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:644
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:136
+msgid "Processing"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:230
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:351
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:645
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:137
+msgid "On Hold"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:232
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:353
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:647
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:139
+msgid "Cancelled"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:233
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:354
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:648
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:140
+msgid "Refunded"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:234
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:355
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:649
+#: vendor/webinane/webinane-commerce/includes/Models/Order.php:141
+msgid "Failed"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Emails.php:238
+msgid "Important Notice"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/ExportOrders.php:25
+msgid "Please select the columns and post status."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/ExportOrders.php:125
+msgid "No record found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Metaboxes.php:120
+msgid "Updated Susscessfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:169
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:243
+msgid "Password length must be at least 10 character"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:180
+msgid "No user found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:200
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:307
+msgid "Profile Updated"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:246
+msgid "Password and confirm password does not match"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:352
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:380
+msgid "Request is not validated."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:368
+msgid "Login successful."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:385
+msgid "Registration is not allowed at the moment"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:395
+msgid "Minimum password length must be 10."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:398
+msgid "Password and confirm password don't match"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:407
+msgid "Registration successful, please login."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:434
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:436
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:439
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:445
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:451
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:453
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:456
+msgid ""
+"<strong>Error</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:501
+#. translators: %s: Admin email address.
+msgid ""
+"<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:532
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:597
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:613
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:632
+msgid "You are not authorized to access it"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:554
+msgid "You don't have any %s"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:567
+msgid "You are not authorized to access it."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:583
+msgid "You don't have any gatways"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:639
+msgid "Note should not be empty"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:643
+msgid "Please write a brief note"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/MyAccount.php:675
+msgid "Note is added successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:109
+#: vendor/webinane/webinane-commerce/templates/orders/order-detail.php:9
+msgid "Order Detail"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:196
+msgid "Add New Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:197
+msgid "Edit Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:198
+msgid "New Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:199
+msgid "View Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:200
+msgid "Search Orders"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:201
+msgid "No Orders found"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:202
+msgid "No Orders found in Trash"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:203
+msgid "Parent Order:"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:251
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:269
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:270
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:308
+msgid "Export Orders"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:312
+msgid "Export orders to a CSV file"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:313
+msgid ""
+"This tool allows you to generate and download a CSV file containing a list "
+"of all orders."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:320
+msgid "Which columns should be exported?"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:324
+msgid "ID"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:325
+msgid "Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:329
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:55
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:54
+msgid "Currency"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:331
+msgid "Date Created"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:332
+msgid "Customer Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:333
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1190
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:59
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:46
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:74
+msgid "Email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:334
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:560
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1191
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:37
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:33
+msgid "Gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:336
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:182
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:973
+msgid "Recurring Cycle"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:337
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:186
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:977
+msgid "Recurring Frequency"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:343
+msgid "Which order status should be exported?"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:366
+msgid "Start Date"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:374
+msgid "End Date"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:386
+msgid "Generate CSV"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:524
+msgid "No replacement"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:687
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:698
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:710
+msgid "On Hold <span class=\"count\">(%s)</span>"
+msgid_plural "On Hold <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:722
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:734
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:745
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:756
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:824
+msgid "Successfully updated"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:843
+msgid "Invalid Post id"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:846
+msgid "No order found for the given ID"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:884
+msgid "Invalid order data provided"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:905
+msgid "Order updated successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:920
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:993
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1061
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1113
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1138
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1167
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1261
+#. translators: it replaces the email address.
+msgid "You are not authorized to do that"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:950
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1046
+msgid "Item is updated successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1001
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1016
+msgid "Product doesn't exist"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1010
+msgid "Product pricie is not available"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1040
+msgid "Item is already in order, please update its quantity"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1097
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1123
+msgid "Note added successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1151
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1176
+msgid "Note deleted successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1188
+msgid "Donor"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1192
+msgid "Number of Items"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1388
+msgid "You have no permissions to do that"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1399
+msgid "Refund is processed successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1401
+msgid "Gateway is not enabled"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:1404
+msgid "Invalid gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Webinane.php:159
+msgid "Minimum PHP version 7.1 is required for Webinane Commerce to work"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Fields/Switcher.php:71
+msgid "ON"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Fields/Switcher.php:72
+msgid "OFF"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:175
+msgid "--Select--"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:230
+msgid "No Sidebar"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:344
+#: vendor/webinane/webinane-commerce/includes/Functions.php:346
+msgid "Unable to find success page, Plese contact administrator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:355
+msgid "Invalided success page URL, Plese contact administrator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:357
+msgid "Invalid success page URL, Plese contact administrator"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Functions.php:643
+msgid "Security check is failed, please refresh the page and try again"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:44
+msgid "Offline Payment"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:45
+msgid "Pay offline via check or cash"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:74
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:76
+msgid "Offline Gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:85
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:108
+msgid "Title to show on the payment page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:91
+msgid "Description to show on the success page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:92
+msgid "Payment Instructions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:97
+msgid "Enter the instructions like bank account detail to show on success page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayOffline.php:137
+msgid "The gateway is not active, please try another gateway"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:73
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:96
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:99
+msgid "PayPal Standard"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:74
+msgid "Pay using PayPal"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:100
+msgid "Enable sandbox mode to do test payments"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:114
+msgid "Description to show on the payment page"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:115
+msgid "PayPal Email"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:120
+msgid "Please enter your PayPal email, it is need to take the orders"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:123
+msgid "API Username"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:128
+msgid ""
+"Please enter your PayPal live API username, Learn how to access <a "
+"href=\"https://developer.paypal.com/webapps/developer/docs/classic/api/"
+"apiCredentials/#create-an-api-signature\" target=\"_blank\">PayPal API "
+"Credentials</a>"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:130
+msgid "API Password"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:135
+msgid "Please enter your PayPal live API password"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:138
+msgid "API Signature"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:143
+msgid ""
+"Please enter your PayPal live API signature, the IPN listening URL should "
+"be %s"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:734
+msgid "Invalid profile ID"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:903
+msgid "Payment was not completed, cannot give refund"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Gateways/GatewayPaypal.php:947
+msgid "Refund is processed successfully in PayPal"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Api.php:247
+msgid "settings to disconnection is get wrong."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Api.php:308
+msgid "Connection is successful"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Api.php:314
+msgid "Wrong username or password, please try again with correct credentials"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:34
+msgid "Request is not verified"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:37
+msgid "You are not authorized to that"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:92
+msgid "trash to disconnect is get wrong."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:110
+msgid "Unable to disconnected from the server, try again later"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:124
+msgid "You are not connected"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:172
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:210
+msgid "Unable to connect the API, try again later"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:237
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:254
+msgid "Plugin is installed and activated successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Helpers/Connect.php:301
+msgid "Plugin is activated successfully"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:9
+msgid "Connect"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:22
+msgid "Our Extensions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:23
+msgid "Disconnect"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:42
+msgid "Buy Now"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:56
+msgid "Login in to Connect"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:66
+msgid "Don't have account? <a href=\"%s\" target=\"_blank\">Create one</a>"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/connect.php:69
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:54
+msgid "Login"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:6
+msgid "Zip Code"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/order-metabox-basic.php:13
+msgid "Order Action"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/stats-dashboard-widget.php:9
+msgid "Sales this month"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/stats-dashboard-widget.php:16
+#: vendor/webinane/webinane-commerce/templates/admin/stats-dashboard-widget.php:26
+msgid "%d Order"
+msgid_plural "%d Orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/stats-dashboard-widget.php:19
+msgid "Pending Transactions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/admin/stats-dashboard-widget.php:29
+msgid "Transactions on Hold"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:3
+msgid "Billing Details"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:7
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:7
+msgid "Complete Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:24
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:24
+msgid "Street Address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:25
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:30
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:34
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:25
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:30
+msgid "House Number and Street Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:26
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:26
+msgid "Apartment, suits, unit etc. (options)"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:29
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:29
+msgid "Town and City"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:33
+msgid "State / County"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:37
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:37
+msgid "Postcode / Zip"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/billing.php:56
+msgid "Ship to a Diffrent Address?"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/button.php:4
+msgid "Checkout"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/checkout.php:29
+msgid "Your cart is empty, please visit shop to to purchase items"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/orders.php:3
+msgid "Your Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/orders.php:8
+msgid "Subtotal"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/orders.php:48
+#: vendor/webinane/webinane-commerce/templates/checkout/orders.php:49
+msgid "Place Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:3
+msgid "Shipping Address"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:33
+#: vendor/webinane/webinane-commerce/templates/checkout/shipping.php:34
+msgid "State / Country"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:15
+msgid "Error"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:20
+msgid "Login to the website"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:21
+msgid "Enter username and password to login."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:26
+msgid "Email / Username"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:44
+msgid "Remember Me"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:62
+msgid "Sign Up Now"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:63
+msgid "Fill in the form below to get instant access."
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:67
+msgid "Username"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:88
+msgid "Confirm Password"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/my-account/my-account.php:96
+msgid "Register"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:26
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:22
+#. translators: The orders label.
+msgid "%s Detail"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:38
+msgid "Offline"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:41
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:37
+msgid "Transaction Status"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:48
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:44
+#. translators: Order label.
+msgid "%s Total"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:62
+msgid "Offline Payment Instructions"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/offline-order-detail.php:70
+#: vendor/webinane/webinane-commerce/templates/orders/order-detail.php:13
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:64
+msgid "Item Name"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:29
+msgid "Transaction ID"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:34
+msgid "PayPal"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/paypal-order-detail.php:50
+msgid "Transaction Fee"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/success-page.php:6
+msgid "%s Successful"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/templates/orders/success-page.php:9
+msgid "Your %s has been placed successfully, please review the %s below."
+msgstr ""
+
+#: widgets/donor_of_month.php:16
+msgid "Lifeline Donor Of Month"
+msgstr ""
+
+#: widgets/donor_of_month.php:16
+msgid "This widget is used to show lifeline donor of month."
+msgstr ""
+
+#: widgets/donor_of_month.php:73 widgets/top_donors.php:70
+msgid "Amount:"
+msgstr ""
+
+#: widgets/donor_of_month.php:74 widgets/top_donors.php:71
+msgid "Donation:"
+msgstr ""
+
+#: widgets/donor_of_month.php:74 widgets/top_donors.php:71
+msgid " Times"
+msgstr ""
+
+#: widgets/donor_of_month.php:115
+msgid "Tagline:"
+msgstr ""
+
+#: widgets/donor_of_month.php:122 widgets/donors_list.php:68
+#: widgets/recent_donations.php:97 widgets/top_donors.php:109
+#: widgets/urgent_campaigns.php:118 widgets/urgent_cause.php:151
+#: widgets/urgent_project.php:113
+msgid "Title:"
+msgstr ""
+
+#: widgets/donor_of_month.php:130
+msgid "Description:"
+msgstr ""
+
+#: widgets/donor_of_month.php:138
+msgid "Button Label:"
+msgstr ""
+
+#: widgets/donor_of_month.php:146
+msgid "Button Link:"
+msgstr ""
+
+#: widgets/donor_of_month.php:154
+msgid "Choose donor to show in this widget."
+msgstr ""
+
+#: widgets/donors_list.php:13
+msgid "Lifeline Donor's List"
+msgstr ""
+
+#: widgets/donors_list.php:13
+msgid "This widget is used to show lifeline donors list."
+msgstr ""
+
+#: widgets/donors_list.php:72
+msgid "Post Qty:"
+msgstr ""
+
+#: widgets/recent_donations.php:14
+msgid "Lifeline Recent Donations"
+msgstr ""
+
+#: widgets/recent_donations.php:14
+msgid "This widget is used to show lifeline recent donations."
+msgstr ""
+
+#: widgets/recent_donations.php:105
+msgid "Number Of Donations:"
+msgstr ""
+
+#: widgets/top_donors.php:14
+msgid "Lifeline Top Donors"
+msgstr ""
+
+#: widgets/top_donors.php:14
+msgid "This widget is used to show lifeline top donors."
+msgstr ""
+
+#: widgets/top_donors.php:117
+msgid "Number of Donors:"
+msgstr ""
+
+#: widgets/urgent_campaigns.php:14
+msgid "Lifeline Recent Campaigns"
+msgstr ""
+
+#: widgets/urgent_campaigns.php:14
+msgid "This widget is used to show lifeline recent campaigns."
+msgstr ""
+
+#: widgets/urgent_campaigns.php:76
+msgid "Donate"
+msgstr ""
+
+#: widgets/urgent_campaigns.php:126
+msgid "Number Of Posts:"
+msgstr ""
+
+#: widgets/urgent_campaigns.php:133
+msgid "Choose post type to show data in this widget:"
+msgstr ""
+
+#: widgets/urgent_cause.php:14
+msgid "Lifeline Urgent Cause"
+msgstr ""
+
+#: widgets/urgent_cause.php:14
+msgid "This widget is used to show lifeline urgent cause."
+msgstr ""
+
+#: widgets/urgent_cause.php:86 widgets/urgent_project.php:74
+msgid "Goal:"
+msgstr ""
+
+#: widgets/urgent_cause.php:139
+msgid "Our Urgent Cause"
+msgstr ""
+
+#: widgets/urgent_cause.php:158 widgets/urgent_project.php:121
+msgid "Text Words Limit:"
+msgstr ""
+
+#: widgets/urgent_cause.php:164
+msgid "Choose cause post to show in this widget."
+msgstr ""
+
+#: widgets/urgent_cause.php:176
+msgid "Open Popup"
+msgstr ""
+
+#: widgets/urgent_cause.php:179
+msgid "Whether to open popup on Donate Now button click"
+msgstr ""
+
+#: widgets/urgent_cause.php:183
+msgid "Donation Page Link"
+msgstr ""
+
+#: widgets/urgent_cause.php:186
+msgid ""
+"Enter the donation page link if you don't want to show donation popup on "
+"button click"
+msgstr ""
+
+#: widgets/urgent_cause.php:193
+msgid "Leave it empty if you want to show the default text"
+msgstr ""
+
+#: widgets/urgent_project.php:14
+msgid "Lifeline Urgent Project"
+msgstr ""
+
+#: widgets/urgent_project.php:14
+msgid "This widget is used to show lifeline Urgent Project."
+msgstr ""
+
+#: widgets/urgent_project.php:128
+msgid "Choose project to show in this widget."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://webinane.com/plugins/donation"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress plugin for donations system, integrated with <a "
+"href=\"https://wordpress.org/plugins/webinane-commerce/\" "
+"target=\"_blank\">WP Commerce</a> plugin. If you need Stripe Gateway then "
+"<a "
+"href=\"https://codecanyon.net/item/stripe-payment-gateway-for-lifeline-"
+"donations/24447315\" target=\"_blank\">visit here</a> and if you looking "
+"for more gateways then <a href=\"https://www.webinane.com/plugins\" "
+"target=\"_blank\">visit Webinane</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Webinane"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://webinane.com"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1214
+#: includes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2435
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2481
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/load.php:118
+msgctxt "lifeline-donation"
+msgid "Add New Donation"
+msgstr ""
+
+#: post-types/cause.php:57
+msgctxt "cause"
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/cause.php:59
+msgctxt "cause"
+msgid "Set featured image"
+msgstr ""
+
+#: post-types/cause.php:61
+msgctxt "cause"
+msgid "Remove featured image"
+msgstr ""
+
+#: post-types/cause.php:63
+msgctxt "cause"
+msgid "Use as featured image"
+msgstr ""
+
+#: post-types/project.php:49
+msgctxt "project"
+msgid "Featured Image"
+msgstr ""
+
+#: post-types/project.php:50
+msgctxt "project"
+msgid "Set featured image"
+msgstr ""
+
+#: post-types/project.php:51
+msgctxt "project"
+msgid "Remove featured image"
+msgstr ""
+
+#: post-types/project.php:52
+msgctxt "project"
+msgid "Use as featured image"
+msgstr ""
+
+#: taxonomies/cause_cat.php:34
+msgctxt "taxonomy general name"
+msgid "Cause Category"
+msgstr ""
+
+#: taxonomies/project_cat.php:34
+msgctxt "taxonomy general name"
+msgid "Project category"
+msgstr ""
+
+#: taxonomies/cause_cat.php:53
+msgctxt "cause_Category"
+msgid "Most Used"
+msgstr ""
+
+#: taxonomies/project_cat.php:53
+msgctxt "project_cat"
+msgid "Most Used"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:195
+msgctxt "webinane-commerce"
+msgid "Add New Order"
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:686
+msgctxt "post status label"
+msgid "Processing "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:697
+msgctxt "post status label"
+msgid "Pending Payment "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:709
+msgctxt "post status label"
+msgid "On Hold "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:721
+msgctxt "post status label"
+msgid "Completed "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:733
+msgctxt "post status label"
+msgid "Cancelled "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:744
+msgctxt "post status label"
+msgid "Refunded "
+msgstr ""
+
+#: vendor/webinane/webinane-commerce/includes/Classes/Orders.php:755
+msgctxt "post status label"
+msgid "Failed "
+msgstr ""

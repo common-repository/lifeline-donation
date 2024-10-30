@@ -1,0 +1,134 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-webinane-donation-campaigns2 {
+	margin: 40px 0;
+}
+
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .wpcm-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .wpcm-col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.33333%;
+}
+
+.wp-block-webinane-donation-campaigns2 .wpcm-cause-style2 figure {
+    position: relative;
+    margin-bottom: 20px;
+}
+.wp-block-webinane-donation-campaigns2 .wpcm-cause-style2 figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner figure a {
+    padding: 8px 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+    -moz-transition: all 0.45s;
+    background-color: #0d9b8c;
+}
+
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner h3 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner p {
+    color: #999;
+    margin-bottom: 60px;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .progress {
+    height: 6px;
+    border-radius: 0;
+    background-color: #f6f6f6;
+    overflow: visible;
+}
+
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .progress-bar {
+    position: relative;
+    background-color: #0d9b8c;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .progress-bar span {
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #222222;
+    padding: 7px 9px;
+    position: absolute;
+    right: 0;
+    top: -35px;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .progress-bar span::before {
+    content: "";
+    position: absolute;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #222222;
+    border-left: 6px solid transparent;
+    bottom: -6px;
+    right: 0;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .dontn-amnt-info {
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .dontn-amnt-info span {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.wp-block-webinane-donation-campaigns2 .cause-style2-iner .dontn-amnt-info span strong {
+    margin-right: 3px;
+    color: #0d9b8c;
+}
+.wp-block-webinane-donation-campaigns2.wpcm-wrapper .wpcm-btn.wpcm-btn-border {
+	color: #0d9b8c;
+	display: block;
+    text-align: center;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+    -moz-transition: all 0.45s;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    position: relative;
+    border: 2px solid #0d9b8c;
+    background-color: transparent;
+}

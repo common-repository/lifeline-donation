@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-webinane-donation-campaigns {
+	border: 1px dotted #f00;
+}
+
+.wp-block-webinane-donation-campaigns.wpcm-wrapper .wpcm-btn.wpcm-btn-icon {
+	font-size: 12px;
+	padding: 20px 20px 20px 50px;
+	line-height: 15px;
+}
